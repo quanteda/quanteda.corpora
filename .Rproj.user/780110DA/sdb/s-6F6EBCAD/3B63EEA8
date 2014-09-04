@@ -1,0 +1,16 @@
+{
+    "contents" : "library(quanteda)\n\n\n# from a path\nd <- getDirectory(\"~/Dropbox/QUANTESS/corpora/ukManRenamed\")\nnewCorp <- corpus(d)\n\n# from a path with the attribs in the filenames\nd <- getDirectory(\"~/Dropbox/QUANTESS/corpora/ukManRenamed\" )\nnewCorp1 <- corpus(d, attribs=\"filenames\", attNames=c('country','type','year','language', 'party'))\ntexts(newCorp1)<- iconv(texts(newCorp1), from=\"latin1\", to=\"UTF-8\")\n\n# from a character vector\nukTexts <- getTextDir(\"~/Dropbox/QUANTESS/corpora/ukManRenamed\")\nnewCorp2 <- corpus(ukTexts)\ntexts(newCorp2)<- iconv(texts(newCorp2), from=\"latin1\", to=\"UTF-8\")\n\n# from GUI chooser\nnewCorp3 <- corpus()\n\n# length\nlength(newCorp2)\n\ntestTexts <- rep(\"testing\",length(ukTexts))\n# accessor\ny <- texts(newCorp)\n\n# replacement\ntexts(newCorp) <- testTexts\n\n#cleaning a string\nsingle <- clean('This is a test. Testing! Punctuation. £100, €0.83, \"for example\". ')\n\n#character vector\nvec <- clean(texts(newCorp1))\n\n# and a corpus (returns a corpus)\ntempCorpus <- clean(newCorp1)\n\n# dfms\ntempd <- dfm(newCorp1)\n\n# tokenize\nsingle <- tokenize('This is a text.')\nvec <- tokenize(texts(newCorp1))\n\n#returns a corpus with tokens\nnewCorp1 <- tokenize(newCorp1)\n\n\n# is the tokens attribute equivalent to the result of tokenize? Yes.\nidentical(vec, tokens(newCorp1))\n\n#index\ntempi <- index(newCorp1)\n\n",
+    "created" : 1408980270916.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1374674029",
+    "id" : "3B63EEA8",
+    "lastKnownWriteTime" : 1409664215,
+    "path" : "~/Dropbox/code/quanteda/examples/useCase1.R",
+    "project_path" : "examples/useCase1.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

@@ -1,0 +1,16 @@
+{
+    "contents" : "\n#' @export\nindex <- function(corp){\n\n  # the aim here is to use a list like a dictionary/hashtable\n  # where each name (key) is a word type, and each element\n  # (value) is a vector recording the document number and\n  # position (token number) of each occurence of the word\n  \n  textsvec <- tokens(corp)\n  vocab <- types(corp)\n  dict <- vector(\"list\", length(vocab))\n  # pre-allocate dictionary\n  print(length(vocab))\n  names(dict) <- vocab\n  \n  docNum <- 1\n  print(length(textsvec))\n  while(docNum < length(textsvec)){\n    print(docNum)\n    tokNum <- 1\n    curText <- unlist(textsvec[docNum])\n    print(length(curText))\n    while(tokNum < length(curText)){\n      curToken <- curText[tokNum]\n      dict[[curToken]] <- c(dict[[curToken]], c(docNum, tokNum))\n      tokNum <- tokNum + 1\n    }\n    docNum <- docNum + 1\n  }\n  return(dict)\n}\n\n",
+    "created" : 1409047776068.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "1160166830",
+    "id" : "3F37EA86",
+    "lastKnownWriteTime" : 1409220620,
+    "path" : "~/Dropbox/code/quanteda/R/index.R",
+    "project_path" : "R/index.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

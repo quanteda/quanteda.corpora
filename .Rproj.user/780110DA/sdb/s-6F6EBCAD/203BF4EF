@@ -1,0 +1,16 @@
+{
+    "contents" : "\n#' @export\ncleanSingleNew <- function(s, removeDigits=TRUE, removePunct=TRUE, lower=TRUE) {\n    if (removeDigits){\n        s <- gsub(\"[[:digit:]]\", \"\", s, perl = FALSE)\n    } \n    if (removePunct){\n        s <- gsub(\"[[:punct:]]\", \"\", s, perl = FALSE)\n    }\n    if (lower){\n        s <- tolower(s)\n    }\n    return(s)\n}\n\n\n#' @export\ncleanSingle <- function(s, removeDigits=TRUE, removePunct=TRUE, lower=TRUE) {\n    if (strict) {\n        # lowercases and discards everything except spaces and alphabet\n        # possibly the most frequent use-case for QTA\n        s <- tolower(s)\n        s <- gsub(\"[[:space:]+]\", ' ', s)\n        s <- gsub(\"[^[:lower:] *]\", '', s)\n        \n        # had difficulty combing these into a single command, can revisit if\n        # performance is poor\n        s <- gsub(\" +\", ' ', s)\n    }\n    else {\n        if (removeDigits){\n            s <- gsub(\"[[:digit:]]\", \"\", s, perl = FALSE)\n        } \n        if (removePunct){\n            s <- gsub(\"[[:punct:]]\", \"\", s, perl=TRUE)\n        }\n        if (lower){\n            s <- tolower(s)\n        }\n    }\n    return(s)\n}\n\n#' @export\nclean <- function(x, ...) {\n    UseMethod(\"clean\")\n}\n\n#' @export\nclean.character <- function(s, removeDigits=TRUE, removePunct=FALSE, lower=TRUE, ...) {\n    return(lapply(s, cleanSingleNew, removeDigits=removeDigits, removePunct=removePunct, lower=lower))\n}\n\n#' @export\nclean.corpus <- function(corpus, removeDigits=TRUE, removePunct=FALSE, lower=TRUE, ...) {\n    texts(corpus) <- clean(texts(corpus), removeDigits=removeDigits, removePunct=removePunct, lower=lower)\n    return(corpus)\n}\n",
+    "created" : 1409048586838.000,
+    "dirty" : false,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2408270159",
+    "id" : "203BF4EF",
+    "lastKnownWriteTime" : 1409566787,
+    "path" : "~/Dropbox/code/quanteda/R/clean.R",
+    "project_path" : "R/clean.R",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "r_source"
+}

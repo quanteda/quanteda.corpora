@@ -5,8 +5,7 @@ Version: 0.1
 Date: 2014-09-04
 Author: Ken Benoit and Paul Nulty
 Maintainer: Ken Benoit <kbenoit@lse.ac.uk> and Paul Nulty <p.nulty@lse.ac.uk>
-Description: A library for the quantitative analysis of textual data with R
+Description: Data files to accompany the quanteda text analysis package
 Encoding: UTF-8
 License: GPL-3
 Requires: quanteda
-LazyData: true
