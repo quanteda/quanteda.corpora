@@ -1,7 +1,7 @@
-quantedaData: Quantitative Analysis of Textual Data
+quantedaData: Data files for quanteda
 ===============================================
 
-Package for extra data to accompany the `quanteda` package for managing and analyzing text, by Ken Benoit and Paul Nulty.
+Package for extra data to accompany the _quanteda_ package for managing and analyzing text, by Ken Benoit and Paul Nulty.
 
 How to Install
 --------------
