@@ -1,7 +1,7 @@
-quanteda: Quantitative Analysis of Textual Data
+quantedaData: Quantitative Analysis of Textual Data
 ===============================================
 
-An R library for managing and analyzing text, by Ken Benoit and Paul Nulty.
+Package for extra data to accompany the `quanteda` package for managing and analyzing text, by Ken Benoit and Paul Nulty.
 
 How to Install
 --------------
