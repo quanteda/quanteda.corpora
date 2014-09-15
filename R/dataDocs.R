@@ -35,6 +35,12 @@ NULL
 # @docType data
 NULL
 
+#' @name ieTexts
+#' @rdname iebudgets
+#' @export
+#' @docType data
+NULL
+
 
 #' @name iebudgets
 #' @aliases ieTexts, ieDocvars, ie2010Corpus
