@@ -53,6 +53,14 @@ NULL
 #' @docType data
 NULL
 
+#' @name ie2010Corpus
+#' @title Irish budget speeches corpus, only the 2010 speeches
+#' @description A corpus containing speeches from Irish budget debates in 2010. Each text has document
+#' variables set for party, speaker and year 
+#' @references \url{http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2225069}
+#' @docType data
+NULL
+
 #' @name movies
 #' @title movie reviews from Pang, Lee, and Vaithyanathan (2002)
 #' @docType data

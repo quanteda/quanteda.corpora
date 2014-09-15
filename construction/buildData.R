@@ -18,9 +18,17 @@ amicusCorpus <- corpus(amicusTexts, enc="UTF-8", docvars=list(trainclass=traincl
 save(amicusCorpus, file=".//data//amicusCorpus.RData")
 
 
-
-ie2010Texts <- getTextDir()
 d <- directory("~/Dropbox/QUANTESS/corpora/iebudgets/budget_2010")
 dvm <- c("year", "debate", "number", "foren", "name", "party")
 ie2010Corpus <- corpus(d, docvarsfrom ="filenames", docvarnames = dvm, sep = "_")
+
+save(ie2010Corpus, file=".//data//ie2010Corpus.RData")
+
+
+
+d <- directory("~/Dropbox/QUANTESS/corpora/iebudgets/budget_2010")
+dvm <- c("year", "debate", "number", "foren", "name", "party")
+ie2010Corpus <- corpus(d, docvarsfrom ="filenames", docvarnames = dvm, sep = "_")
+
+save(ie2010Corpus, file=".//data//ie2010Corpus.RData")
 
