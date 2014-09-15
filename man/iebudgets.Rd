@@ -4,8 +4,8 @@
 \title{Irish budget speeches corpus}
 \description{
 A corpus containing speeches from Irish budget debates in
-2008-2012. Each text has attributes for party, speaker and
-year
+2008-2012. Each text has document variables set for party,
+speaker and year
 }
 \references{
 \url{http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2225069}

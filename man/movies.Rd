@@ -1,7 +1,7 @@
 \docType{data}
 \name{movies}
 \alias{movies}
-\title{A corpus object containing 2000 movie reviews}
+\title{movie reviews from Pang, Lee, and Vaithyanathan (2002)}
 \description{
 A corpus object containing 2000 movie reviews classified by
 positive or negative sentiment

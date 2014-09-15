@@ -1,8 +1,8 @@
 \docType{data}
-\name{lbg}
-\alias{lbg}
+\name{LBGexample}
+\alias{LBGexample}
 \title{Example data from Laver Benoit and Garry (2003)}
-\format{A \deqn{6 \times 37} \link{dfm} object}
+\format{A \link{dfm} object with 6 documents and 37 features}
 \description{
 Example data to demonstrate the Wordscores algorithm, from
 Laver Benoit and Garry (2003)

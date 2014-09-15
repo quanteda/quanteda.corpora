@@ -1,10 +1,10 @@
 \docType{data}
 \name{exampleString}
 \alias{exampleString}
-\title{exampleString for testing functions}
-\format{character vector with one element (nchar 2914)}
+\title{A paragraph of text for testing various text-based functions}
+\format{character vector with one element}
 \description{
-This is a long paragraph (2914 characters) of text taken
+This is a long paragraph (2,914 characters) of text taken
 from an Irish budget speech by Joe Higgins
 }
 

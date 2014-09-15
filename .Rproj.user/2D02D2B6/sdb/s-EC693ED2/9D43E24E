@@ -1,0 +1,16 @@
+{
+    "contents" : ".gitignore\n.Rproj.user\n.Rhistory\n.RData\n.Rhistory\n*.Rproj\n.R*\n^.*\\.Rproj$\n^.*\\.Rhistory$\n\n",
+    "created" : 1410541058918.000,
+    "dirty" : true,
+    "encoding" : "UTF-8",
+    "folds" : "",
+    "hash" : "2092967456",
+    "id" : "9D43E24E",
+    "lastKnownWriteTime" : 1410792059,
+    "path" : "~/Dropbox/QUANTESS/quantedaData_kenlocal_gh/.gitignore",
+    "project_path" : ".gitignore",
+    "properties" : {
+    },
+    "source_on_save" : false,
+    "type" : "text"
+}

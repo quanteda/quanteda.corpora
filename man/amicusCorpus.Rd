@@ -1,17 +1,19 @@
 \docType{data}
 \name{amicusCorpus}
 \alias{amicusCorpus}
-\title{Amicus briefs from  US Supreme court cases}
-\format{corpus with 100 texts, and attribute for petitioner/respondent}
+\alias{amicusTexts}
+\title{amicus curiae briefs from Bakke (1978) and Bollinger (2008)}
+\format{\code{amicusCorpus} is corpus with 100 texts, and \code{docvar} set for petitioner/respondent
+\cr \code{amicusTexts} is the same set of texts as a named character vector}
 \description{
-This is a corpus of petitioner and respondent briefs to two
-US Supreme court cases on affirmative action; Bakke(1978)
-and Bollinger (2008)
+Texts of petitioner and respondent briefs to two US Supreme
+court cases on affirmative action: Bakke (1978) and
+Bollinger (2008), taken from Evans et al (2007)
 }
 \references{
-Evans, Michael, et al. "Recounting the courts? Applying
-automated content analysis to enhance empirical legal
-research." Journal of Empirical Legal Studies 4.4 (2007):
+Evans, Michael, et al. 2007. "Recounting the courts?
+Applying automated content analysis to enhance empirical
+legal research." Journal of Empirical Legal Studies 4(4):
 1007-1039.
 }
 
