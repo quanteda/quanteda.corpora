@@ -1,22 +1,9 @@
-#' @name inaugCorpus
-#' @title Corpus of US presidential inaugaration speeches
-#' @description Corpus of US presidential inaugaration speeches
-#' @docType data
-#' @export
-NULL
-
-#' @name inaugTexts
-#' @title Texts of US presidential inaugaration speeches
-#' @description Texts of US presidential inaugaration speeches
-#' @docType data
-#' @export
-NULL
 
 #' @name amicusCorpus
 #' @title Amicus briefs from  US Supreme court cases
 #' @description This is a corpus of petitioner and respondent briefs to two US Supreme court cases on affirmative action; Bakke(1978) and Bollinger (2008)
 #' @format corpus with 100 texts, and attribute for petitioner/respondent
-#' @references Evans, Michael, et al. "Recounting the courts? Applying automated content analysis to enhance empirical legal research." Journal of Empirical Legal Studies 4.4 (2007): 1007-1039.
+#' @references Evans, Michael, et al. 2007. "Recounting the courts? Applying automated content analysis to enhance empirical legal research." Journal of Empirical Legal Studies 4(4): 1007-1039.
 #' @docType data
 NULL
 
@@ -109,20 +96,6 @@ NULL
 #' @references \url{http://www.speech.cs.cmu.edu/cgi-bin/cmudict}
 #' 
 NULL
-
-#' @name inaugCorpus
-#' @docType data
-#' @title A corpus of US inaugural addresses from 1789-2013
-#' @description A \link{quanteda} corpus of US presidents' inaugural addresses since 1789.
-#' Meta-data contains the year of the address and the last name of the president.
-#' @examples
-#' data(inaugCorpus)
-#' summary(inaugCorpus)
-#' @references \url{https://archive.org/details/Inaugural-Address-Corpus-1789-2009} and 
-#' \url{http://www.presidency.ucsb.edu/inaugurals.php}.
-#' 
-NULL
-
 
 #' @name lbg
 #' @docType data
