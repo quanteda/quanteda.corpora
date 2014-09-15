@@ -1,10 +1,12 @@
 
 #' @name amicusCorpus
+#' @aliases amicus
 #' @title amicus curiae briefs from Bakke (1978) and Bollinger (2008) 
-#' @description Texts of petitioner and respondent briefs to two US Supreme court cases on affirmative action: 
-#' Bakke (1978) and Bollinger (2008), taken from Evans et al (2007)
+#' @description Texts of amicus curiae briefs labelled as being either pro-petitioner or pro-respondent
+#' in US Supreme court cases on affirmative action,
+#' Bakke (1978) and Bollinger (2008), taken from Evans et al (2007).
 #' @format \code{amicusCorpus} is corpus with 100 texts, and \code{docvar} set for petitioner/respondent
-#' \cr \code{amicusTexts} is the same set of texts as a named character vector
+#' \cr \cr \code{amicusTexts} is the same set of texts as a named character vector
 #' @references Evans, Michael, et al. 2007. "Recounting the courts? Applying automated content analysis to enhance empirical legal research." Journal of Empirical Legal Studies 4(4): 1007-1039.
 #' @docType data
 NULL
@@ -20,14 +22,9 @@ NULL
 #' @description This is a long paragraph (2,914 characters) of text taken from an Irish budget speech by Joe Higgins
 #' @format character vector with one element
 #' @docType data
-NULL
-
-
-# @name ieAttribs
-# @title A vector of attributes to match ieBudget documents
-# @description This is a small vector of attributes for use in examples with ieBudgets
-# @format a dataframe of attributes, 5 obs. of 6 variables 
-# @docType data
+#' @examples
+#' data(exampleString)
+#' clean(exampleString)
 NULL
 
 
@@ -38,27 +35,46 @@ NULL
 # @docType data
 NULL
 
-# @name ieTexts
-# @title Irish budget speeches texts
-# @description This is a small vector of texts from the ieBudget corpus for use with testing examples
-# @format character vector of 5 texts
-# @docType data
-NULL
 
 #' @name iebudgets
-#' @title Irish budget speeches corpus
-#' @description A corpus containing speeches from Irish budget debates in 2008-2012. Each text has document
-#' variables set for party, speaker and year 
-#' @references \url{http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2225069}
+#' @aliases ieTexts, ieDocvars, ie2010Corpus
+#' @title Irish budget speeches
+#' @usage 
+#' data(iebudgets) 
+#' data(ieTexts) 
+#' data(ieDocvars)
+#' data(ie2010Corpus)
+#' @description Speeches and document-level variables from Irish budget debates held annually, 
+#' for the years 2008-2012. 
+#' @format 
+#' \code{iebudgets} is the corpus object for the 2008-2012 budget speeches, with document-level variables
+#' for year, debate, serial number, first and last name of the speaker, and the speaker's party. \cr
+#' \cr
+#' \code{ieTexts} is a character vector of five budget speeches for experimenting with corpus 
+#' construction.\cr
+#' \cr
+#' \code{ieDocvars} is a data frame of document-level variables for experimenting with corpus 
+#' construction. \cr
+#' \cr
+#' \code{ie2010Corpus} is the subset for the 2010 budget speeches from Lowe and Benoit (2013)
+#' @references 
+#' Alexander Herzog and Kenneth Benoit. 2013. "\href{http://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2281311_code1869090.pdf?abstractid=2225069&mirid=1}{The Most Unkindest Cuts: Government Cohesion and Economic Crisis.}" 
+#' Paper prepared for presentation at the 3rd Annual General Conference of the European Political Science Association, 20-22 June 2013, Barcelona.
+#' \cr \cr
+#' Lowe, Will and Kenneth Benoit. 2013.  "\href{http://www.kenbenoit.net/pdfs/Political%20Analysis-2013-Lowe-298-313.pdf}{Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark.}" 
+#' \emph{Political Analysis} 21: 298–313. 
 #' @docType data
-NULL
-
-#' @name ie2010Corpus
-#' @title Irish budget speeches corpus, only the 2010 speeches
-#' @description A corpus containing speeches from Irish budget debates in 2010. Each text has document
-#' variables set for party, speaker and year 
-#' @references \url{http://papers.ssrn.com/sol3/papers.cfm?abstract_id=2225069}
-#' @docType data
+#' @examples 
+#' # load the Irish budget speeches
+#' data(iebudgets)
+#' ie2010corp <- subset(iebudgets, year==2010)  # just the 2010 speeches
+#' summary(ie2010corp)
+#' summary(subset(iebudgets, no="02"))  # just the Finance Minister (always first)
+#'                                      # note that "no" is a factor, not integer
+#'
+#' # create a corpus (just five speeches)
+#' mycorpus <- corpus(ieTexts, docvars=ieDocvars)
+#' summary(mycorpus)
 NULL
 
 #' @name movies
@@ -69,12 +85,12 @@ NULL
 NULL
 
 
-#' @name UKManifestos
-#' @title A corpus object containing 105 UK Manifestos
-#' @docType data
-#' @description A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
+# @name UKManifestos
+# @title A corpus object containing 105 UK Manifestos
+# @docType data
+# @description A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
 # @references As used in Laver, Michael. 1998a. \'Party Policy in Britain, 1997: Results from an Expert Survey.\' Political Studies 46: 336–47.
-NULL
+# NULL
 
 #' @name uk2010immig
 #' @title Immigration-related sections of 2010 UK party manifestos
