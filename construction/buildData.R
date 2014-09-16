@@ -17,14 +17,14 @@ save(amicusCorpus, file=".//data//amicusCorpus.RData")
 
 # 2010 Irish budgets
 d <- directory("~/Dropbox/QUANTESS/corpora/iebudgets/budget_2010")
-dvn <- c("year", "debate", "number", "foren", "name", "party")
+dvn <- c("year", "debate", "number", "namefirst", "namelast", "party")
 ie2010Corpus <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
 save(ie2010Corpus, file=".//data//ie2010Corpus.RData")
 
 
 # all Irish budgets
 d <- directory("~/Dropbox/QUANTESS/corpora/iebudgets/all")
-dvn <- c("year", "debate", "number", "foren", "name", "party")
+dvn <- c("year", "debate", "number", "namefirst", "namelast", "party")
 iebudgets <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
 save(iebudgets, file=".//data//iebudgets.RData")
 
@@ -42,9 +42,10 @@ ukManifestos <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_"
 save(ukManifestos, file=".//data//ukManifestos.RData")
 
 # UK Immigration news corpus (this is from in-memory data )
+load(file="broken/newsCorpus.RData")
 texts <- newsCorpus$attribs$texts
 attribs <- newsCorpus$attribs[,2:4]
-immigNewsCorpus <- corpus(texts, attribs, docnames= names(texts), enc="UTF-8")
+immigNewsCorpus <- corpus(texts, attribs, docnames=rownames(attribs), enc="UTF-8")
 save(immigNewsCorpus, file=".//data//immigNewsCorpus.RData")
 
 

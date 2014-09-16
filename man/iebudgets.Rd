@@ -30,7 +30,7 @@ debates held annually, for the years 2008-2012.
 data(iebudgets)
 ie2010corp <- subset(iebudgets, year==2010)  # just the 2010 speeches
 summary(ie2010corp)
-summary(subset(iebudgets, no="02"))  # just the Finance Minister (always first)
+summary(subset(iebudgets, no=="02"))  # just the Finance Minister (always first)
                                      # note that "no" is a factor, not integer
 
 # create a corpus (just five speeches)
