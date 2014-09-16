@@ -104,20 +104,6 @@ NULL
 # @references As used in Laver, Michael. 1998a. \'Party Policy in Britain, 1997: Results from an Expert Survey.\' Political Studies 46: 336–47.
 NULL
 
-#' @name uk2010immig
-#' @title Immigration-related sections of 2010 UK party manifestos
-#' @docType data
-#' @description Extracts from the election manifestos of 9 UK political parties from 2010, related
-#' to immigration or asylum-seekers.
-#' @format A named character vector of plain ASCII texts
-#' @examples
-#' data(uk2010immig)
-#' uk2010immigCorpus <- corpus(uk2010immig, docvars=list(party=names(uk2010immig)))
-#' language(uk2010immigCorpus) <- "english"
-#' encoding(uk2010immigCorpus) <- "UTF-8"
-#' summary(uk2010immigCorpus)
-NULL
-
 
 #' @name LBGexample
 #' @docType data
