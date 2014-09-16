@@ -17,24 +17,35 @@ save(amicusCorpus, file=".//data//amicusCorpus.RData")
 
 # 2010 Irish budgets
 d <- directory("~/Dropbox/QUANTESS/corpora/iebudgets/budget_2010")
-dvm <- c("year", "debate", "number", "foren", "name", "party")
-ie2010Corpus <- corpus(d, docvarsfrom ="filenames", docvarnames = dvm, sep = "_")
+dvn <- c("year", "debate", "number", "foren", "name", "party")
+ie2010Corpus <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
 save(ie2010Corpus, file=".//data//ie2010Corpus.RData")
 
 
 # all Irish budgets
 d <- directory("~/Dropbox/QUANTESS/corpora/iebudgets/all")
-dvm <- c("year", "debate", "number", "foren", "name", "party")
-iebudgets <- corpus(d, docvarsfrom ="filenames", docvarnames = dvm, sep = "_")
+dvn <- c("year", "debate", "number", "foren", "name", "party")
+iebudgets <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
 save(iebudgets, file=".//data//iebudgets.RData")
 
 
-
+# movie reviews
 d <- directory("~/Dropbox/QUANTESS/corpora/movieReviews/movies_sample/all")
-dvm <- c("Sentiment", "id1", "id2")
+dvn <- c("Sentiment", "id1", "id2")
 movies <- corpus(d, docvarsfrom ="filenames", docvarnames = dvm, sep = "_")
 save(movies, file=".//data//movies.RData")
 
+# uk manifestos
+d <- directory("~/Dropbox/QUANTESS/corpora/ukManRenamed")
+dvn <- c("Country", "Type", "Year", "Language", "Party")
+ukManifestos <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
+save(ukManifestos, file=".//data//ukManifestos.RData")
+
+# UK Immigration news corpus (this is from in-memory data )
+texts <- newsCorpus$attribs$texts
+attribs <- newsCorpus$attribs[,2:4]
+immigNewsCorpus <- corpus(texts, attribs, docnames= names(texts), enc="UTF-8")
+save(immigNewsCorpus, file=".//data//immigNewsCorpus.RData")
 
 
 
