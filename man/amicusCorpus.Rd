@@ -2,7 +2,6 @@
 \name{amicusCorpus}
 \alias{amicus}
 \alias{amicusCorpus}
-\alias{amicusTexts}
 \title{amicus curiae briefs from Bakke (1978) and Bollinger (2008)}
 \format{\code{amicusCorpus} is corpus with 100 texts, and \code{docvar} set for petitioner/respondent
 \cr \cr \code{amicusTexts} is the same set of texts as a named character vector}

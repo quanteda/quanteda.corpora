@@ -11,9 +11,9 @@
 #' @docType data
 NULL
 
-#' @name amicusTexts
-#' @rdname amicusCorpus
-#' @docType data
+# @name amicusTexts
+# @rdname amicusCorpus
+# @docType data
 NULL
 
 
@@ -35,10 +35,10 @@ NULL
 # @docType data
 NULL
 
-#' @name ieTexts
-#' @rdname iebudgets
-#' @export
-#' @docType data
+# @name ieTexts
+# @rdname iebudgets
+# @export
+# @docType data
 NULL
 
 
