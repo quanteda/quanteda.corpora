@@ -1,0 +1,16 @@
+\docType{package}
+\name{quantedaData}
+\alias{quantedaData}
+\alias{quantedaData-package}
+\title{An R package containing texts and corpora for \link[quanteda]{quanteda}.}
+\description{
+A set of texts and corpus objects for use with the quanteda
+R package.
+}
+\author{
+Ken Benoit and Paul Nulty
+}
+\seealso{
+\link[quanteda]{quanteda}
+}
+

@@ -1,3 +1,10 @@
+#' @name quantedaData
+#' @docType package
+#' @title An R package containing texts and corpora for \link[quanteda]{quanteda}.
+#' @author Ken Benoit and Paul Nulty
+#' @description A set of texts and corpus objects for use with the quanteda R package.
+#' @seealso \link[quanteda]{quanteda}
+NULL
 
 #' @name amicusCorpus
 #' @aliases amicus
