@@ -82,7 +82,7 @@ NULL
 #' data(iebudgets)
 #' ie2010corp <- subset(iebudgets, year==2010)  # just the 2010 speeches
 #' summary(ie2010corp)
-#' summary(subset(iebudgets, no="02"))  # just the Finance Minister (always first)
+#' summary(subset(iebudgets, no=="02"))  # just the Finance Minister (always first)
 #'                                      # note that "no" is a factor, not integer
 #'
 #' # create a corpus (just five speeches)
@@ -97,13 +97,12 @@ NULL
 #' @references \url{http://dl.acm.org/citation.cfm?id=1118704}
 NULL
 
-
-# @name UKManifestos
-# @title A corpus object containing 105 UK Manifestos
-# @docType data
-# @description A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
+#' @name ukManifestos
+#' @title A corpus object containing 105 UK Manifestos
+#' @docType data
+#' @description A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
 # @references As used in Laver, Michael. 1998a. \'Party Policy in Britain, 1997: Results from an Expert Survey.\' Political Studies 46: 336–47.
-# NULL
+NULL
 
 #' @name uk2010immig
 #' @title Immigration-related sections of 2010 UK party manifestos

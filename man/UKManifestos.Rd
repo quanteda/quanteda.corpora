@@ -1,6 +1,6 @@
 \docType{data}
-\name{UKManifestos}
-\alias{UKManifestos}
+\name{ukManifestos}
+\alias{ukManifestos}
 \title{A corpus object containing 105 UK Manifestos}
 \description{
 A corpus object containing 105 UK Manifestos from
