@@ -28,7 +28,6 @@ dvn <- c("year", "debate", "number", "namefirst", "namelast", "party")
 iebudgets <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
 save(iebudgets, file=".//data//iebudgets.RData")
 
-
 # movie reviews
 d <- directory("~/Dropbox/QUANTESS/corpora/movieReviews/movies_sample/all")
 dvn <- c("Sentiment", "id1", "id2")
@@ -47,7 +46,6 @@ texts <- newsCorpus$attribs$texts
 attribs <- newsCorpus$attribs[,2:4]
 immigNewsCorpus <- corpus(texts, attribs, docnames=rownames(attribs), enc="UTF-8")
 save(immigNewsCorpus, file=".//data//immigNewsCorpus.RData")
-
 
 
 
