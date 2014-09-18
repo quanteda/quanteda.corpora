@@ -29,9 +29,9 @@ iebudgets <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
 save(iebudgets, file=".//data//iebudgets.RData")
 
 # movie reviews
-d <- directory("~/Dropbox/QUANTESS/corpora/movieReviews/movies_sample/all")
+d <- directory("/home/paul/Dropbox/QUANTESS/corpora/movieReviews/smaller/all")
 dvn <- c("Sentiment", "id1", "id2")
-movies <- corpus(d, docvarsfrom ="filenames", docvarnames = dvm, sep = "_")
+movies <- corpus(d, docvarsfrom ="filenames", docvarnames = dvn, sep = "_")
 save(movies, file=".//data//movies.RData")
 
 # uk manifestos
