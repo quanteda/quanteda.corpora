@@ -18,9 +18,9 @@ NULL
 #' @docType data
 NULL
 
-# @name amicusTexts
-# @rdname amicusCorpus
-# @docType data
+#' @name amicusTexts
+#' @rdname amicusCorpus
+#' @docType data
 NULL
 
 
@@ -35,47 +35,48 @@ NULL
 NULL
 
 
-# @name ieTextsHeaders
-# @title Irish budget speeches headers
-# @description This is a small vector of texts for use in examples with corpusFromHeaders
-# @format character vector of 14 texts with JSON headers for use in example
-# @docType data
+#' @name ieTextsHeaders
+#' @rdname iebudgets
+#' @docType data
 NULL
 
-# @name ieTexts
-# @rdname iebudgets
-# @export
-# @docType data
+#' @name ieTexts
+#' @rdname iebudgets
+#' @docType data
+NULL
+
+#' @name ieDocvars
+#' @rdname iebudgets
+#' @docType data
 NULL
 
 
 #' @name iebudgets
 #' @aliases ieTexts, ieDocvars, ie2010Corpus
 #' @title Irish budget speeches
-#' @usage 
-#' data(iebudgets) 
-#' data(ieTexts) 
-#' data(ieDocvars)
-#' data(ie2010Corpus)
-#' @description Speeches and document-level variables from Irish budget debates held annually, 
-#' for the years 2008-2012. 
-#' @format 
-#' \code{iebudgets} is the corpus object for the 2008-2012 budget speeches, with document-level variables
-#' for year, debate, serial number, first and last name of the speaker, and the speaker's party. \cr
-#' \cr
-#' \code{ieTexts} is a character vector of five budget speeches for experimenting with corpus 
-#' construction.\cr
-#' \cr
-#' \code{ieDocvars} is a data frame of document-level variables for experimenting with corpus 
-#' construction. \cr
-#' \cr
-#' \code{ie2010Corpus} is the subset for the 2010 budget speeches from Lowe and Benoit (2013)
-#' @references 
-#' Alexander Herzog and Kenneth Benoit. 2013. "\href{http://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2281311_code1869090.pdf?abstractid=2225069&mirid=1}{The Most Unkindest Cuts: Government Cohesion and Economic Crisis.}" 
-#' Paper prepared for presentation at the 3rd Annual General Conference of the European Political Science Association, 20-22 June 2013, Barcelona.
-#' \cr \cr
-#' Lowe, Will and Kenneth Benoit. 2013.  "\href{http://www.kenbenoit.net/pdfs/Political%20Analysis-2013-Lowe-298-313.pdf}{Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark.}" 
-#' \emph{Political Analysis} 21: 298–313. 
+# @usage data(iebudgets) data(ieTexts) data(ieDocvars) data(ie2010Corpus)
+#' @description Speeches and document-level variables from Irish budget debates
+#'   held annually, for the years 2008-2012.
+#' @format \code{iebudgets} is the corpus object for the 2008-2012 budget
+#' speeches, with document-level variables for year, debate, serial number,
+#' first and last name of the speaker, and the speaker's party. \cr \cr 
+#' \code{ieTexts} is a character vector of five budget speeches for
+#' experimenting with corpus construction.\cr \cr \code{ieDocvars} is a data
+#' frame of document-level variables for experimenting with corpus construction.
+#' \cr \cr \code{ie2010Corpus} is the subset for the 2010 budget speeches from
+#' Lowe and Benoit (2013)
+#' @references Alexander Herzog and Kenneth Benoit. 2013.
+#' 
+#' "\href{http://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2281311_code1869090.pdf?abstractid=2225069&mirid=1}{The
+#' Most Unkindest Cuts: Government Cohesion and Economic Crisis.}" Paper
+#' prepared for presentation at the 3rd Annual General Conference of the
+#' European Political Science Association, 20-22 June 2013, Barcelona. \cr \cr 
+#' Lowe, Will and Kenneth Benoit. 2013. 
+#' 
+#' "\href{http://www.kenbenoit.net/pdfs/Political%20Analysis-2013-Lowe-298-313.pdf}{Validating
+#' Estimates of Latent Traits From Textual Data Using Human Judgment as a
+#' Benchmark.}" \emph{Political Analysis} 21: 298–313.
+#' 
 #' @docType data
 #' @examples 
 #' # load the Irish budget speeches
@@ -84,11 +85,27 @@ NULL
 #' summary(ie2010corp)
 #' summary(subset(iebudgets, no=="02"))  # just the Finance Minister (always first)
 #'                                      # note that "no" is a factor, not integer
-#'
+#' 
 #' # create a corpus (just five speeches)
 #' mycorpus <- corpus(ieTexts, docvars=ieDocvars)
 #' summary(mycorpus)
 NULL
+
+#' @name immigNewsCorpus
+#' @title UK news articles (2833) from 2014 that mention immigration
+#' @description A corpus of articles form the UK press in 2014 that mention the 
+#'   immigration. See working paper: 
+#'   "\href{https://github.com/pnulty/LSEtext/blob/master/NultyPoletti.pdf}{The
+#'   Immigration Issue in the European Electoral Campaign in the UK: Text-Mining
+#'   Public Debate from Newspapers and Social Media}"
+#' @format \code{immigNewsCorpus} is corpus with 2833 texts, and \code{docvars}
+#'   set for \code{paperName}, \code{day}, and \code{id}. \code{day} is the
+#'   number of days from Jan 1st 2014.
+#' @docType data
+NULL
+
+
+
 
 #' @name movies
 #' @title movie reviews from Pang, Lee, and Vaithyanathan (2002)
@@ -105,7 +122,7 @@ NULL
 NULL
 
 
-#' @name LBGexample
+#' @name lbg
 #' @docType data
 #' @title Example data from Laver Benoit and Garry (2003)
 #' @description Example data to demonstrate the Wordscores algorithm, from Laver Benoit and Garry (2003)
