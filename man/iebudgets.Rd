@@ -3,9 +3,7 @@
 \name{ieTextsHeaders}
 \alias{ie2010Corpus}
 \alias{ieDocvars}
-\alias{ieDocvars,}
 \alias{ieTexts}
-\alias{ieTexts,}
 \alias{ieTextsHeaders}
 \alias{iebudgets}
 \title{Irish budget speeches}

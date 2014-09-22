@@ -52,7 +52,7 @@ NULL
 
 
 #' @name iebudgets
-#' @aliases ieTexts, ieDocvars, ie2010Corpus
+#' @aliases ieTexts ieDocvars ie2010Corpus
 #' @title Irish budget speeches
 # @usage data(iebudgets) data(ieTexts) data(ieDocvars) data(ie2010Corpus)
 #' @description Speeches and document-level variables from Irish budget debates
@@ -106,7 +106,6 @@ NULL
 
 
 
-
 #' @name movies
 #' @title movie reviews from Pang, Lee, and Vaithyanathan (2002)
 #' @docType data
@@ -122,7 +121,7 @@ NULL
 NULL
 
 
-#' @name lbg
+#' @name LBGexample
 #' @docType data
 #' @title Example data from Laver Benoit and Garry (2003)
 #' @description Example data to demonstrate the Wordscores algorithm, from Laver Benoit and Garry (2003)
