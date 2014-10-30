@@ -86,6 +86,7 @@ NULL
 #' summary(subset(iebudgets, no=="02"))  # just the Finance Minister (always first)
 #'                                      # note that "no" is a factor, not integer
 #' 
+#' data(ieTexts)
 #' # create a corpus (just five speeches)
 #' mycorpus <- corpus(ieTexts, docvars=ieDocvars)
 #' summary(mycorpus)
@@ -112,6 +113,16 @@ NULL
 #' @description A corpus object containing 2000 movie reviews classified by positive or negative sentiment
 #' @references \url{http://dl.acm.org/citation.cfm?id=1118704}
 NULL
+
+
+
+#' @name sotuCorp
+#' @title State of the Union addresses from 1985 to 2014
+#' @docType data
+#' @description A corpus object 30 US State-of-the-Union addresses, 1985 to 2014
+NULL
+
+
 
 #' @name ukManifestos
 #' @title A corpus object containing 105 UK Manifestos
