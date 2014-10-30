@@ -54,4 +54,19 @@ LBGexample <- lbg
 save(LBGexample, file=".//data//LBGexample.RData")
 
 
+# state of the union addresses from JSON
+
+library(jsonlite)
+path <- '~/Dropbox/QUANTESS/Manuscripts/Collocations/Corpora/sotu/sotu.json'
+raw <- readLines(path)
+parsed <- lapply(raw, fromJSON)
+mat <- matrix(unlist(parsed), nrow=30, ncol=5, byrow=TRUE)
+txts <- mat[,2]
+atts <- mat[,-2]
+sotuCorp <- corpus(txts)
+docvars(sotuCorp, field="party") <- atts[,1]
+docvars(sotuCorp, field="name") <- atts[,3]
+docvars(sotuCorp, field="year") <- atts[,4]
+
+
 
