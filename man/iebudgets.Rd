@@ -27,6 +27,7 @@ summary(ie2010corp)
 summary(subset(iebudgets, no=="02"))  # just the Finance Minister (always first)
                                      # note that "no" is a factor, not integer
 
+data(ieTexts)
 # create a corpus (just five speeches)
 mycorpus <- corpus(ieTexts, docvars=ieDocvars)
 summary(mycorpus)
