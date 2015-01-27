@@ -35,24 +35,8 @@ NULL
 NULL
 
 
-#' @name ieTextsHeaders
-#' @rdname iebudgets
-#' @docType data
-NULL
-
-#' @name ieTexts
-#' @rdname iebudgets
-#' @docType data
-NULL
-
-#' @name ieDocvars
-#' @rdname iebudgets
-#' @docType data
-NULL
-
-
-#' @name iebudgets
-#' @aliases ieTexts ieDocvars ie2010Corpus
+#' @name iebudgetsCorpus
+#' @aliases ieTexts ieDocvars ie2010Corpus iebudgets
 #' @title Irish budget speeches
 # @usage data(iebudgets) data(ieTexts) data(ieDocvars) data(ie2010Corpus)
 #' @description Speeches and document-level variables from Irish budget debates
@@ -63,10 +47,12 @@ NULL
 #' \code{ieTexts} is a character vector of five budget speeches for
 #' experimenting with corpus construction.\cr \cr \code{ieDocvars} is a data
 #' frame of document-level variables for experimenting with corpus construction.
+#' \cr \cr \code{iebudgets} is the defunct name for the \code{iebudgetsCorpus} object -- 
+#' use that instead
 #' \cr \cr \code{ie2010Corpus} is the subset for the 2010 budget speeches from
 #' Lowe and Benoit (2013)
-#' @references Alexander Herzog and Kenneth Benoit. 2013.
-#' 
+#' @references Alexander Herzog and Kenneth Benoit (2013)
+#'
 #' "\href{http://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2281311_code1869090.pdf?abstractid=2225069&mirid=1}{The
 #' Most Unkindest Cuts: Government Cohesion and Economic Crisis.}" Paper
 #' prepared for presentation at the 3rd Annual General Conference of the
@@ -80,9 +66,9 @@ NULL
 #' @docType data
 #' @examples 
 #' # load the Irish budget speeches
-#' data(iebudgets)
-#' ie2010corp <- subset(iebudgets, year==2010)  # just the 2010 speeches
-#' summary(ie2010corp)
+#' data(iebudgetsCorpus)
+#' ie2010 <- subset(iebudgets, year==2010)  # just the 2010 speeches
+#' summary(ie2010)
 #' summary(subset(iebudgets, no=="02"))  # just the Finance Minister (always first)
 #'                                      # note that "no" is a factor, not integer
 #' 
@@ -107,7 +93,8 @@ NULL
 
 
 
-#' @name movies
+#' @name moviesCorpus
+#' @aliases movies
 #' @title movie reviews from Pang, Lee, and Vaithyanathan (2002)
 #' @docType data
 #' @description A corpus object containing 2000 movie reviews classified by positive or negative sentiment
@@ -116,7 +103,8 @@ NULL
 
 
 
-#' @name sotuCorp
+#' @name SOTUCorpus
+#' @aliases sotuCorp
 #' @title State of the Union addresses from 1985 to 2014
 #' @docType data
 #' @description A corpus object 30 US State-of-the-Union addresses, 1985 to 2014
@@ -124,7 +112,8 @@ NULL
 
 
 
-#' @name ukManifestos
+#' @name ukManifestosCorpus
+#' @aliases ukManifestos
 #' @title A corpus object containing 105 UK Manifestos
 #' @docType data
 #' @description A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
@@ -134,14 +123,17 @@ NULL
 
 #' @name LBGexample
 #' @docType data
-#' @title Example data from Laver Benoit and Garry (2003)
-#' @description Example data to demonstrate the Wordscores algorithm, from Laver Benoit and Garry (2003)
-#' @details This is the example word count data from Laver,
-#'  Benoit and Garry's (2003) Table 1. Documents R1 to R5 are assumed to have known
-#'  positions: -1.5, -0.75, 0, 0.75, 1.5.  Document V1 is assumed
-#'  unknown, and will have a raw text score of approximately -0.45 when computed
-#'  as per LBG (2003).  
+#' @title dfm containing example data from Table 1 of Laver Benoit and Garry
+#'   (2003)
+#' @description Example data to demonstrate the Wordscores algorithm, from Laver
+#'   Benoit and Garry (2003)
+#' @details This is the example word count data from Laver, Benoit and Garry's
+#'   (2003) Table 1. Documents R1 to R5 are assumed to have known positions:
+#'   -1.5, -0.75, 0, 0.75, 1.5.  Document V1 is assumed unknown, and will have a
+#'   raw text score of approximately -0.45 when computed as per LBG (2003).
 #' @format A \link{dfm} object with 6 documents and 37 features
-#' @references Laver, Michael, Kenneth Benoit, and John Garry.  2003. "\href{http://www.kenbenoit.net/pdfs/WORDSCORESAPSR.pdf}{Estimating policy positions from
-#' political text using words as data.}" American Political Science Review 97(2): 311-331.
+#' @references Laver, Michael, Kenneth Benoit, and John Garry.  2003.
+#'   "\href{http://www.kenbenoit.net/pdfs/WORDSCORESAPSR.pdf}{Estimating policy
+#'   positions from political text using words as data.}" American Political
+#'   Science Review 97(2): 311-331.
 NULL
