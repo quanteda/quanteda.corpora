@@ -13,7 +13,7 @@ This is done as follows:
 ```S
 # devtools required to install quanteda from Github
 if (!require(devtools)) install.packages("devtools")
-library(devtools)
+
 # install the latest version quanteda from Github
-install_github("quantedaData", username="kbenoit")
+devtools::install_github("kbenoit/quantedaData")
 ```
