@@ -68,7 +68,7 @@ library(jsonlite)
 path <- '~/Dropbox/QUANTESS/Manuscripts/Collocations/Corpora/sotu/sotu.json'
 raw <- readLines(path)
 parsed <- lapply(raw, fromJSON)
-mat <- matrix(unlist(parsed), nrow=30, ncol=5, byrow=TRUE)
+mat <- matrix(unlist(parsed), nrow=31, ncol=5, byrow=TRUE)
 txts <- mat[,2]
 atts <- mat[,-2]
 SOTUCorpus <- corpus(txts)
