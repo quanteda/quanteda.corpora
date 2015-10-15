@@ -36,7 +36,7 @@ NULL
 
 
 #' @name iebudgetsCorpus
-#' @aliases ieTexts ieDocvars ie2010Corpus iebudgets
+#' @aliases ieTexts ieDocvars iebudgets
 #' @title Irish budget speeches
 # @usage data(iebudgets) data(ieTexts) data(ieDocvars) data(ie2010Corpus)
 #' @description Speeches and document-level variables from Irish budget debates
@@ -105,12 +105,19 @@ NULL
 
 #' @name SOTUCorpus
 #' @aliases sotuCorp
-#' @title State of the Union addresses from 1985 to 2014
+#' @title U.S. State of the Union addresses from 1790 to 2014
 #' @docType data
-#' @description A corpus object 30 US State-of-the-Union addresses, 1985 to 2014
+#' @description A corpus object 229 US State-of-the-Union addresses, from 1790
+#'   to 2010. The corpus includes the following document variables: 
+#'   \describe{ \item{FirstName}{President's first and middle names.} 
+#'   \item{President}{President's last name.} \item{Date}{Date of the delivery
+#'   of the speech or document.} \item{delivery}{Either \code{written} or
+#'   \code{spoken}, depending on the format.  See Source.} \item{type}{Either
+#'   \code{SOTU} for an official State of the Union Address, or \code{other},
+#'   for a different form of speech or message. See Source.} }
+#' @source The American Presidency Project,
+#'   \url{http://www.presidency.ucsb.edu/sou.php}.
 NULL
-
-
 
 #' @name ukManifestosCorpus
 #' @aliases ukManifestos
@@ -121,19 +128,4 @@ NULL
 NULL
 
 
-#' @name LBGexample
-#' @docType data
-#' @title dfm containing example data from Table 1 of Laver Benoit and Garry
-#'   (2003)
-#' @description Example data to demonstrate the Wordscores algorithm, from Laver
-#'   Benoit and Garry (2003)
-#' @details This is the example word count data from Laver, Benoit and Garry's
-#'   (2003) Table 1. Documents R1 to R5 are assumed to have known positions:
-#'   -1.5, -0.75, 0, 0.75, 1.5.  Document V1 is assumed unknown, and will have a
-#'   raw text score of approximately -0.45 when computed as per LBG (2003).
-#' @format A \link{dfm} object with 6 documents and 37 features
-#' @references Laver, Michael, Kenneth Benoit, and John Garry.  2003.
-#'   "\href{http://www.kenbenoit.net/pdfs/WORDSCORESAPSR.pdf}{Estimating policy
-#'   positions from political text using words as data.}" American Political
-#'   Science Review 97(2): 311-331.
-NULL
+

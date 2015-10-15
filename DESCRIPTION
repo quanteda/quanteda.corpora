@@ -1,8 +1,8 @@
 Package: quantedaData
 Type: Package
 Title: Data files for quanteda
-Version: 0.92
-Date: 2015-01-27
+Version: 0.93
+Date: 2015-10-14
 Author: Ken Benoit and Paul Nulty
 Maintainer: Ken Benoit <kbenoit@lse.ac.uk> and Paul Nulty <p.nulty@lse.ac.uk>
 Description: Data files to accompany the quanteda text analysis package
