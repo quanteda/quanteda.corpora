@@ -105,10 +105,10 @@ NULL
 
 #' @name SOTUCorpus
 #' @aliases sotuCorp
-#' @title U.S. State of the Union addresses from 1790 to 2014
+#' @title U.S. State of the Union addresses from 1790 to 2016
 #' @docType data
-#' @description A corpus object 229 US State-of-the-Union addresses, from 1790 
-#'   to 2010. The corpus includes the following document variables: \describe{
+#' @description A corpus object 230 US State-of-the-Union addresses, from 1790 
+#'   to 2016. The corpus includes the following document variables: \describe{
 #'   \item{FirstName}{President's first and middle names.} 
 #'   \item{President}{President's last name.}
 #'   
