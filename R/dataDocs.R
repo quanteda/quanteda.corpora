@@ -18,11 +18,6 @@ NULL
 #' @docType data
 NULL
 
-#' @name amicusTexts
-#' @rdname amicusCorpus
-#' @docType data
-NULL
-
 
 #' @name exampleString
 #' @title A paragraph of text for testing various text-based functions
