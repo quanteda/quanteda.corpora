@@ -7,14 +7,13 @@
 NULL
 
 #' @name amicusCorpus
-#' @aliases amicus
 #' @title amicus curiae briefs from Bakke (1978) and Bollinger (2008) 
 #' @description Texts of amicus curiae briefs labelled as being either pro-petitioner or pro-respondent
 #' in US Supreme court cases on affirmative action,
 #' Bakke (1978) and Bollinger (2008), taken from Evans et al (2007).
 #' @format \code{amicusCorpus} is corpus with 100 texts, and \code{docvar} set for petitioner/respondent
-#' \cr \cr \code{amicusTexts} is the same set of texts as a named character vector
-#' @references Evans, Michael, et al. 2007. "Recounting the courts? Applying automated content analysis to enhance empirical legal research." Journal of Empirical Legal Studies 4(4): 1007-1039.
+#' @references Evans, Michael, et al. 2007. "Recounting the courts? Applying automated content analysis to enhance empirical legal research." 
+#' \emph{Journal of Empirical Legal Studies} 4(4): 1007-1039.
 #' @docType data
 NULL
 
@@ -31,45 +30,31 @@ NULL
 
 
 #' @name iebudgetsCorpus
-#' @aliases ieTexts ieDocvars iebudgets
 #' @title Irish budget speeches
-# @usage data(iebudgets) data(ieTexts) data(ieDocvars) data(ie2010Corpus)
-#' @description Speeches and document-level variables from Irish budget debates
+#' @description Speeches and document-level variables from Irish budget debates 
 #'   held annually, for the years 2008-2012.
-#' @format \code{iebudgets} is the corpus object for the 2008-2012 budget
-#' speeches, with document-level variables for year, debate, serial number,
-#' first and last name of the speaker, and the speaker's party. \cr \cr 
-#' \code{ieTexts} is a character vector of five budget speeches for
-#' experimenting with corpus construction.\cr \cr \code{ieDocvars} is a data
-#' frame of document-level variables for experimenting with corpus construction.
-#' \cr \cr \code{iebudgets} is the defunct name for the \code{iebudgetsCorpus} object -- 
-#' use that instead
-#' \cr \cr \code{ie2010Corpus} is the subset for the 2010 budget speeches from
-#' Lowe and Benoit (2013)
-#' @references Alexander Herzog and Kenneth Benoit (2013)
-#'
-#' "\href{http://papers.ssrn.com/sol3/Delivery.cfm/SSRN_ID2281311_code1869090.pdf?abstractid=2225069&mirid=1}{The
-#' Most Unkindest Cuts: Government Cohesion and Economic Crisis.}" Paper
-#' prepared for presentation at the 3rd Annual General Conference of the
-#' European Political Science Association, 20-22 June 2013, Barcelona. \cr \cr 
-#' Lowe, Will and Kenneth Benoit. 2013. 
-#' 
-#' "\href{http://www.kenbenoit.net/pdfs/Political%20Analysis-2013-Lowe-298-313.pdf}{Validating
-#' Estimates of Latent Traits From Textual Data Using Human Judgment as a
-#' Benchmark.}" \emph{Political Analysis} 21: 298–313.
-#' 
+#' @references Alexander Herzog and Kenneth Benoit. 2015.  "\href{http://www.kenbenoit.net/pdfs/Herzog_Benoit_JOP_2015.pdf}{The Most
+#'   Unkindest Cuts: Speaker Selection and Expressed Government Dissent During
+#'   Economic Crisis}". 
+#'   \emph{Journal of Politics} 77(4, October): 1157-1175.
+#'   
+#'   Lowe, Will and Kenneth Benoit. 2013. 
+#'   "\href{http://www.kenbenoit.net/pdfs/Political\%20Analysis-2013-Lowe-298-313.pdf}{Validating
+#'    Estimates of Latent Traits From Textual Data Using Human Judgment as a 
+#'   Benchmark.}" \emph{Political Analysis} 21: 298-313.
+
 #' @docType data
 #' @examples 
 #' # load the Irish budget speeches
 #' data(iebudgetsCorpus)
-#' ie2010 <- subset(iebudgets, year==2010)  # just the 2010 speeches
+#' ie2010 <- subset(iebudgets, year == 2010)  # just the 2010 speeches
 #' summary(ie2010)
-#' summary(subset(iebudgets, no=="02"))  # just the Finance Minister (always first)
-#'                                      # note that "no" is a factor, not integer
+#' summary(subset(iebudgets, no == "02"))  # just the Finance Minister (always first)
+#'                                         # note that "no" is a factor, not integer
 #' 
 #' data(ieTexts)
 #' # create a corpus (just five speeches)
-#' mycorpus <- corpus(ieTexts, docvars=ieDocvars)
+#' mycorpus <- corpus(ieTexts, docvars = ieDocvars)
 #' summary(mycorpus)
 NULL
 
@@ -99,7 +84,6 @@ NULL
 
 
 #' @name SOTUCorpus
-#' @aliases sotuCorp
 #' @title U.S. State of the Union addresses from 1790 to 2016
 #' @docType data
 #' @description A corpus object 230 US State-of-the-Union addresses, from 1790 
@@ -122,7 +106,6 @@ NULL
 NULL
 
 #' @name ukManifestosCorpus
-#' @aliases ukManifestos
 #' @title A corpus object containing 105 UK Manifestos
 #' @docType data
 #' @description A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
