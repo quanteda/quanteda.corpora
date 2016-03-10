@@ -59,7 +59,7 @@ NULL
 NULL
 
 #' @name immigNewsCorpus
-#' @title UK news articles (2833) from 2014 that mention immigration
+#' @title UK news articles (2,833) from 2014 that mention immigration
 #' @description A corpus of articles form the UK press in 2014 that mention the 
 #'   immigration. See working paper: 
 #'   "\href{https://github.com/pnulty/LSEtext/blob/master/NultyPoletti.pdf}{The
