@@ -18,17 +18,6 @@ NULL
 NULL
 
 
-#' @name exampleString
-#' @title A paragraph of text for testing various text-based functions
-#' @description This is a long paragraph (2,914 characters) of text taken from an Irish budget speech by Joe Higgins
-#' @format character vector with one element
-#' @docType data
-#' @examples
-#' data(exampleString)
-#' clean(exampleString)
-NULL
-
-
 #' @name iebudgetsCorpus
 #' @title Irish budget speeches
 #' @description Speeches and document-level variables from Irish budget debates 
@@ -112,5 +101,50 @@ NULL
 # @references As used in Laver, Michael. 1998a. \'Party Policy in Britain, 1997: Results from an Expert Survey.\' Political Studies 46: 336–47.
 NULL
 
-
-
+#' @name encodedTextFiles
+#' @title a .zip file of texts containing a variety of differently encoded texts
+#' @source The Universal Declaration of Human Rights resources, 
+#'   \url{http://www.ohchr.org/EN/UDHR/Pages/SearchByLang.aspx}
+#' @docType data
+#' @description A set of translations of the Universal Declaration of Human
+#'   Rights, plus one or two other miscellaneous texts, for testing the text
+#'   input functions that need to translate different input encodings.
+#' @examples
+#' # unzip the files to a temporary directory
+#' FILEDIR <- tempdir()
+#' unzip(system.file("extdata", "encodedTextFiles.zip", package = "quantedaData"), exdir = FILEDIR)
+#' 
+#' # get encoding from filename
+#' filenames <- list.files(FILEDIR, "\\.txt$")
+#' # strip the extension
+#' filenames <- gsub(".txt$", "", filenames)
+#' parts <- strsplit(filenames, "_")
+#' fileencodings <- sapply(parts, "[", 3)
+#' fileencodings
+#' 
+#' # find out which conversions are unavailable (through iconv())
+#' cat("Encoding conversions not available for this platform:")
+#' notAvailableIndex <- which(!(fileencodings %in% iconvlist()))
+#' fileencodings[notAvailableIndex]
+#' 
+#' # try textfile
+#' require(quanteda)
+#' tfile <- textfile(paste0(FILEDIR, "/", "*.txt"))
+#' substring(texts(tfile)[1], 1, 80) # gibberish
+#' substring(texts(tfile)[4], 1, 80) # hex
+#' substring(texts(tfile)[40], 1, 80) # hex
+#' 
+#' # read them in again
+#' tfile <- textfile(paste0(FILEDIR,  "/", "*.txt"), encoding = fileencodings)
+#' substring(texts(tfile)[1], 1, 80)  # English
+#' substring(texts(tfile)[4], 1, 80)  # Arabic, looking good 
+#' substring(texts(tfile)[40], 1, 80) # Cyrillic, looking good
+#' substring(texts(tfile)[7], 1, 80)  # Chinese, looking good
+#' substring(texts(tfile)[26], 1, 80) # Hindi, looking good
+#' 
+#' tfile <- textfile(paste0(FILEDIR, "/", "*.txt"), encoding = fileencodings,
+#'                   docvarsfrom = "filenames", 
+#'                   docvarnames = c("document", "language", "inputEncoding"))
+#' encodingCorpus <- corpus(tfile, source = "Created by encoding-tests.R") 
+#' summary(encodingCorpus)
+NULL

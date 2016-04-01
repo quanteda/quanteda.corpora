@@ -3,7 +3,7 @@
 \docType{data}
 \name{immigNewsCorpus}
 \alias{immigNewsCorpus}
-\title{UK news articles (2833) from 2014 that mention immigration}
+\title{UK news articles (2,833) from 2014 that mention immigration}
 \format{\code{immigNewsCorpus} is corpus with 2833 texts, and \code{docvars}
   set for \code{paperName}, \code{day}, and \code{id}. \code{day} is the
   number of days from Jan 1st 2014.}
