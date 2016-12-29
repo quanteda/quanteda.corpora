@@ -101,3 +101,15 @@ NULL
 # @references As used in Laver, Michael. 1998a. \'Party Policy in Britain, 1997: Results from an Expert Survey.\' Political Studies 46: 336–47.
 NULL
 
+#' @name ie30corpus
+#' @title Irish Dail speeches from 2007-2011
+#' @description Speeches and document-level variables from debates in the 30th Dail.
+#' @format The corpus object for the 30th Dail speeches, with document-level 
+#'   variables for speaker, debate, and speaker's party.
+#' @source Benjamin E Lauderdale and Alexander Herzog.  2016. "A Scaling Model 
+#'   for Estimating Time-Series Party Positions from Texts." \emph{Political Analysis}.
+#' @docType data
+#' @examples
+#' summary(ie30corpus, 5)
+NULL
+
