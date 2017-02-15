@@ -1,7 +1,7 @@
 quantedaData: Data files for quanteda
 ===============================================
 
-Package for extra data to accompany the _quanteda_ package for managing and analyzing text, by Ken Benoit and Paul Nulty.
+Package for extra data to accompany the [**quanteda**](https://github.com/kbenoit/quanteda) package for managing and analyzing text.
 
 How to Install
 --------------
@@ -10,10 +10,6 @@ You can download the files and build the package from source, or you can use the
 
 This is done as follows:
 
-```S
-# devtools required to install quanteda from Github
-if (!require(devtools)) install.packages("devtools")
-
-# install the latest version quanteda from Github
+```r
 devtools::install_github("kbenoit/quantedaData")
 ```

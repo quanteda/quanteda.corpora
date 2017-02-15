@@ -1,14 +1,20 @@
 Package: quantedaData
 Type: Package
 Title: Data files for quanteda
-Version: 0.98-2
-Date: 2016-12-29
-Author: Ken Benoit and Paul Nulty
-Maintainer: Ken Benoit <kbenoit@lse.ac.uk> and Paul Nulty <p.nulty@lse.ac.uk>
-Description: Data files to accompany the quanteda text analysis package
+Version: 0.99.9000
+Date: 2017-02-15
+Authors@R: c( person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role =
+    c("aut", "cre")), 
+    person("Paul", "Nulty", email = "paul.nulty@gmail.com", role = "ctb") )
+Description: Data files to accompany the quanteda text analysis package.
 Encoding: UTF-8
 License: GPL-3
-Requires: quanteda
 Depends:
+    R (>= 3.2.2), 
     quanteda
-RoxygenNote: 5.0.1
+Imports:
+    quanteda
+URL: http://github.com/kbenoit/quantedaData
+BugReports: https://github.com/kbenoit/quantedaData/issues
+LazyData: TRUE
+RoxygenNote: 6.0.0

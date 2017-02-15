@@ -8,10 +8,9 @@
 \description{
 A set of texts and corpus objects for use with the quanteda R package.
 }
-\author{
-Ken Benoit and Paul Nulty
-}
 \seealso{
 \link[quanteda]{quanteda}
 }
-
+\author{
+Ken Benoit and Paul Nulty
+}
