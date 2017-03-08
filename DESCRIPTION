@@ -1,8 +1,8 @@
 Package: quantedaData
 Type: Package
 Title: Data files for quanteda
-Version: 0.99.9000
-Date: 2017-02-15
+Version: 0.99.9001
+Date: 2017-03-08
 Authors@R: c( person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role =
     c("aut", "cre")), 
     person("Paul", "Nulty", email = "paul.nulty@gmail.com", role = "ctb") )
@@ -17,4 +17,4 @@ Imports:
 URL: http://github.com/kbenoit/quantedaData
 BugReports: https://github.com/kbenoit/quantedaData/issues
 LazyData: TRUE
-RoxygenNote: 6.0.0
+RoxygenNote: 6.0.1
