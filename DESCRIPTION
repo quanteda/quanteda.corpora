@@ -1,10 +1,11 @@
 Package: quanteda.data
 Type: Package
 Title: Data files for quanteda
-Version: 0.99.9001
+Version: 0.99.9002
 Date: 2017-12-19
 Authors@R: c( person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role =
     c("aut", "cre")), 
+    person("Kohei", "Watanabe", email = "watanabe.kohei@gmail.com", role = "ctb"), 
     person("Paul", "Nulty", email = "paul.nulty@gmail.com", role = "ctb") )
 Description: Data files to accompany the quanteda text analysis package.
 Encoding: UTF-8
@@ -14,7 +15,10 @@ Depends:
     quanteda
 Imports:
     quanteda
-URL: http://github.com/kbenoit/quantedaData
-BugReports: https://github.com/kbenoit/quantedaData/issues
+URL: http://github.com/quanteda/quanteda.data
+BugReports: https://github.com/quanteda/quanteda.data/issues
 LazyData: TRUE
 RoxygenNote: 6.0.1
+Collate:
+    "data_download.R"
+    "data.R"

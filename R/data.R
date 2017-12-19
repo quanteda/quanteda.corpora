@@ -4,7 +4,7 @@
 #' @seealso \link[quanteda]{quanteda}
 "_PACKAGE"
 
-#' amicus curiae briefs from Bakke (1978) and Bollinger (2008)
+#' Amicus curiae briefs from Bakke (1978) and Bollinger (2008)
 #' 
 #' Texts of amicus curiae briefs labelled as being either pro-petitioner or
 #' pro-respondent in US Supreme court cases on affirmative action, Bakke (1978)
@@ -18,7 +18,7 @@
 "data_corpus_amicus"
 
 
-#' annual budget speeches from the Irish Dail, 2008-2012
+#' Annual budget speeches from the Irish Dail, 2008-2012
 #' 
 #' Speeches and document-level variables from Irish budget debates held 
 #' annually, for the years 2008-2012.
@@ -60,7 +60,7 @@
 "data_corpus_immigrationnews"
 
 
-#' movie reviews from Pang, Lee, and Vaithyanathan (2002)
+#' Movie reviews from Pang, Lee, and Vaithyanathan (2002)
 #' 
 #' A corpus object containing 2000 movie reviews classified by positive or negative sentiment
 #' @references \url{http://dl.acm.org/citation.cfm?id=1118704}
