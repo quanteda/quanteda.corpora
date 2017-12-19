@@ -1,8 +1,8 @@
-Package: quantedaData
+Package: quanteda.data
 Type: Package
 Title: Data files for quanteda
 Version: 0.99.9001
-Date: 2017-03-08
+Date: 2017-12-19
 Authors@R: c( person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role =
     c("aut", "cre")), 
     person("Paul", "Nulty", email = "paul.nulty@gmail.com", role = "ctb") )
