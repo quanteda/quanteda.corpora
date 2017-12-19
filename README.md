@@ -1,7 +1,7 @@
-quantedaData: Data files for quanteda
+quanteda.data: Data files for quanteda
 ===============================================
 
-Package for extra data to accompany the [**quanteda**](https://github.com/kbenoit/quanteda) package for managing and analyzing text.
+Package for extra data to accompany the [**quanteda**](http://github.com/quanteda/quanteda.data) package for managing and analyzing text.
 
 How to Install
 --------------
@@ -11,5 +11,5 @@ You can download the files and build the package from source, or you can use the
 This is done as follows:
 
 ```r
-devtools::install_github("kbenoit/quantedaData")
+devtools::install_github("quanteda/quanteda.data")
 ```
