@@ -7,9 +7,9 @@
 data_download(name = NULL, url = NULL, cache = TRUE, ...)
 }
 \arguments{
-\item{name}{name of the RDS file}
+\item{name}{name of a RDS file to download}
 
-\item{url}{user-specified location of the RDS file}
+\item{url}{user-specified location of the RDS file to download}
 
 \item{cache}{if \code{TRUE}, save downloaded file to temporary folder}
 
@@ -22,8 +22,12 @@ an unserialized R object
 Donlowad RDS file from online locations
 }
 \details{
-Currently only \code{data_corpus_foreignaffairscommittee} and
-\code{data_corpus_guardian} are available.
+Datasets currently available by \code{name} are: \describe{
+  \item{\code{data_corpus_guardian}}{6,000 Guradian newspaper articles in
+  politics, economy, society and international sections from 2012 to 2016.}
+  \item{\code{data_corpus_foreignaffairscommittee}}{Transcripts of all the 
+  speeches at Japan's Committee on Foreign Affairs and Defense of the lower 
+  house (Shugiin) from 1947 to 2017}.}
 }
 \examples{
 \\donotrun{

@@ -87,7 +87,7 @@
 #'   }
 #' @source The American Presidency Project,
 #'   \url{http://www.presidency.ucsb.edu/sou.php}.
-"data_corpus_SOTU"
+"data_corpus_stou"
 
 
 #' UK political party manifestos, 1945-2005
