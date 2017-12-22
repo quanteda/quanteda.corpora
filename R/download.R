@@ -15,10 +15,10 @@
 #'
 #' @examples
 #' \donotrun{
-#' corp <- data_download('data_corpus_guardian')
-#' corp <- data_download('data_corpus_foreignaffairscommittee')
+#' corp <- download('data_corpus_guardian')
+#' corp <- download('data_corpus_foreignaffairscommittee')
 #' }
-data_download <- function(name = NULL, url = NULL, cache = TRUE, ...) {
+download <- function(name = NULL, url = NULL, cache = TRUE, ...) {
     
     # increment the v parameter in the url to force users to reflesh local cache
     location <- list('data_corpus_foreignaffairscommittee' = 
