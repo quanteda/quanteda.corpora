@@ -1,13 +1,11 @@
-Package: quanteda.data
+Package: quanteda.corpora
 Type: Package
-Title: Data files for quanteda
+Title: A collection of corpora for quanteda
 Version: 0.99.9002
 Date: 2017-12-19
-Authors@R: c( person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role =
-    c("aut", "cre")), 
-    person("Kohei", "Watanabe", email = "watanabe.kohei@gmail.com", role = "ctb"), 
-    person("Paul", "Nulty", email = "paul.nulty@gmail.com", role = "ctb") )
-Description: Data files to accompany the quanteda text analysis package.
+Authors@R: c(person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role = c("aut", "cre")), 
+             person("Kohei", "Watanabe", email = "watanabe.kohei@gmail.com", role = "ctb"))
+Description: A collection of corpus objects for the quanteda text analysis package.
 Encoding: UTF-8
 License: GPL-3
 Depends:
@@ -15,8 +13,8 @@ Depends:
     quanteda
 Imports:
     quanteda
-URL: http://github.com/quanteda/quanteda.data
-BugReports: https://github.com/quanteda/quanteda.data/issues
+URL: http://github.com/quanteda/quanteda.corpora
+BugReports: https://github.com/quanteda/quanteda.corpora/issues
 LazyData: TRUE
 RoxygenNote: 6.0.1
 Collate:
