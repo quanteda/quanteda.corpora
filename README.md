@@ -14,6 +14,8 @@ devtools::install_github("quanteda/quanteda.copora")
 
 ## Available corpora
 
+Corpora contained in the package are the following:
+
 Corpus | Name
 --|--
 Amicus curiae briefs from Bakke (1978) and Bollinger (2008) | data_corpus_amicus
@@ -23,3 +25,10 @@ Movie reviews from Pang, Lee, and Vaithyanathan (2002) | data_corpus_movies
 U.S. State of the Union addresses from 1790 to 2016 | data_corpus_stou
 UK political party manifestos, 1945-2005 | data_corpus_ukmanifestos
 Irish Dail speeches from 2007-2011 | data_corpus_irish30
+
+Larger corpora are also available from a online location using `download()`:
+
+Corpus | Name
+--|--
+Guradian newspaper articles in politics, economy, society and international sections from 2012 to 2016 | data_corpus_guardian
+Transcripts of speeches at Japan's Committee on Foreign Affairs and Defense of the lower house (Shugiin) from 1947 to 2017 | data_corpus_foreignaffairscommittee
