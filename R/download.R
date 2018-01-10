@@ -43,9 +43,9 @@ download <- function(name = NULL, url = NULL, cache = TRUE, ...) {
     }
     if (!file.exists(path) || !cache) {
         download.file(url, destfile = path, mode = 'wb', ...)
-        if (!cache)
-            file.remove(path)
     }
-    readRDS(path)
-    
+    result <- readRDS(path)
+    if (!cache) 
+        file.remove(path)
+    return(result)
 }
