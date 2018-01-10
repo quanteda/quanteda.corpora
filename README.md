@@ -7,7 +7,7 @@ Package to provide easy access to large corpora for [**quanteda**](http://github
 You can download the files and build the package from source, or you can use the devtools library to install the package directly from github. This is done as follows:
 
 ```r
-devtools::install_github("quanteda/quanteda.copora")
+devtools::install_github("quanteda/quanteda.corpora")
 ```
 
 ## Available corpora

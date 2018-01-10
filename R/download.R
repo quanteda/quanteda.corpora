@@ -36,7 +36,7 @@ download <- function(name = NULL, url = NULL, cache = TRUE, ...) {
     if (is.null(url)) {
         stop("name or url needs to be specified\n")
     }
-    temp <- paste0(tempdir(), "/", digest::digest(url, 'md5'))
+    temp <- file.path(tempdir(), digest::digest(url, 'md5'), fsep = .Platform$file.sep)
     if (!file.exists(temp) || !cache) {
         download.file(url, destfile = temp, ...)
         if (!cache)
