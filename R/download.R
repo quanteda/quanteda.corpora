@@ -36,12 +36,16 @@ download <- function(name = NULL, url = NULL, cache = TRUE, ...) {
     if (is.null(url)) {
         stop("name or url needs to be specified\n")
     }
-    temp <- paste0(tempdir(), "/", digest::digest(url, 'md5'))
-    if (!file.exists(temp) || !cache) {
-        download.file(url, destfile = temp, ...)
-        if (!cache)
-            file.remove(temp)
+    if (.Platform$OS.type == 'windows') {
+        path <- paste(tempdir(), digest::digest(url, 'md5'), sep = '\\')
+    } else {
+        path <- paste(tempdir(), digest::digest(url, 'md5'), sep = '/')
     }
-    readRDS(temp)
-    
+    if (!file.exists(path) || !cache) {
+        download.file(url, destfile = path, mode = 'wb', ...)
+    }
+    result <- readRDS(path)
+    if (!cache) 
+        file.remove(path)
+    return(result)
 }
