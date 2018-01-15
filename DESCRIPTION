@@ -1,18 +1,18 @@
 Package: quanteda.corpora
 Type: Package
 Title: A collection of corpora for quanteda
-Version: 0.8
-Date: 2017-12-19
+Version: 0.81
+Date: 2018-01-15
 Authors@R: c(person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role = c("aut", "cre")), 
              person("Kohei", "Watanabe", email = "watanabe.kohei@gmail.com", role = "ctb"))
 Description: A collection of corpus objects for the quanteda text analysis package.
 Encoding: UTF-8
 License: GPL-3
 Depends:
-    R (>= 3.2.2), 
-    quanteda
+    R (>= 3.4.0)
 Imports:
-    quanteda
+    quanteda,
+    digest
 URL: http://github.com/quanteda/quanteda.corpora
 BugReports: https://github.com/quanteda/quanteda.corpora/issues
 LazyData: TRUE

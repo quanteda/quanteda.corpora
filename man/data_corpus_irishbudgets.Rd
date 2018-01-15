@@ -17,14 +17,6 @@ data_corpus_irishbudgets
 Speeches and document-level variables from Irish budget debates held 
 annually, for the years 2008-2012.
 }
-\examples{
-# just the 2010 speeches
-ie2010 <- corpus_subset(data_corpus_irishbudgets, year == 2010)  
-summary(ie2010)
-# just the Finance Minister (always first)
-# note that "no" is a factor, not integer
-summary(corpus_subset(data_corpus_irishbudgets, no == "01"))
-}
 \references{
 Alexander Herzog and Kenneth Benoit. 2015. 
   "\href{http://www.kenbenoit.net/pdfs/Herzog_Benoit_JOP_2015.pdf}{The Most 

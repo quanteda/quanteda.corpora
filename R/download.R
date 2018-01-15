@@ -1,9 +1,9 @@
-#' Donlowad RDS file from online locations
+#' Download an RDS file from online locations
 #'
 #' @param name name of a RDS file to download
 #' @param url user-specified location of the RDS file to download
 #' @param cache if \code{TRUE}, save downloaded file to temporary folder
-#' @param ... extra argument passed to \code{download.file}
+#' @param ... extra arguments passed to \code{\link{download.file}}
 #' @details Datasets currently available by \code{name} are: \describe{
 #'   \item{\code{data_corpus_guardian}}{6,000 Guradian newspaper articles in
 #'   politics, economy, society and international sections from 2012 to 2016.}
@@ -12,9 +12,9 @@
 #'   house (Shugiin) from 1947 to 2017}.}
 #' @return an unserialized R object
 #' @export
-#'
+#' @importFrom utils download.file
 #' @examples
-#' \donotrun{
+#' \dontrun{
 #' corp <- download('data_corpus_guardian')
 #' corp <- download('data_corpus_foreignaffairscommittee')
 #' }

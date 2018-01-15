@@ -2,7 +2,7 @@
 % Please edit documentation in R/download.R
 \name{download}
 \alias{download}
-\title{Donlowad RDS file from online locations}
+\title{Download an RDS file from online locations}
 \usage{
 download(name = NULL, url = NULL, cache = TRUE, ...)
 }
@@ -13,13 +13,13 @@ download(name = NULL, url = NULL, cache = TRUE, ...)
 
 \item{cache}{if \code{TRUE}, save downloaded file to temporary folder}
 
-\item{...}{extra argument passed to \code{download.file}}
+\item{...}{extra arguments passed to \code{\link{download.file}}}
 }
 \value{
 an unserialized R object
 }
 \description{
-Donlowad RDS file from online locations
+Download an RDS file from online locations
 }
 \details{
 Datasets currently available by \code{name} are: \describe{
@@ -30,7 +30,7 @@ Datasets currently available by \code{name} are: \describe{
   house (Shugiin) from 1947 to 2017}.}
 }
 \examples{
-\\donotrun{
+\dontrun{
 corp <- download('data_corpus_guardian')
 corp <- download('data_corpus_foreignaffairscommittee')
 }
