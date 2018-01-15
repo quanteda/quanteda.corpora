@@ -37,13 +37,6 @@
 #'   "\href{http://www.kenbenoit.net/pdfs/Political\%20Analysis-2013-Lowe-298-313.pdf}{Validating
 #'    Estimates of Latent Traits From Textual Data Using Human Judgment as a 
 #'   Benchmark.}" \emph{Political Analysis} 21: 298-313.
-#' @examples 
-#' # just the 2010 speeches
-#' ie2010 <- corpus_subset(data_corpus_irishbudgets, year == 2010)  
-#' summary(ie2010)
-#' # just the Finance Minister (always first)
-#' # note that "no" is a factor, not integer
-#' summary(corpus_subset(data_corpus_irishbudgets, no == "01"))
 "data_corpus_irishbudgets"
 
 
@@ -87,7 +80,7 @@
 #'   }
 #' @source The American Presidency Project,
 #'   \url{http://www.presidency.ucsb.edu/sou.php}.
-"data_corpus_stou"
+"data_corpus_sotu"
 
 
 #' UK political party manifestos, 1945-2005
