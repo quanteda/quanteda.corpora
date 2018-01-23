@@ -20,7 +20,7 @@ Amicus curiae briefs from Bakke (1978) and Bollinger (2008) | data_corpus_amicus
 Annual budget speeches from the Irish Dail, 2008-2012 | data_corpus_irishbudgets
 UK news articles from 2014 that mention immigration | data_corpus_immigrationnews
 Movie reviews from Pang, Lee, and Vaithyanathan (2002) | data_corpus_movies
-U.S. State of the Union addresses from 1790 to 2016 | data_corpus_stou
+U.S. State of the Union addresses from 1790 to 2016 | data_corpus_sotu
 UK political party manifestos, 1945-2005 | data_corpus_ukmanifestos
 Irish Dail speeches from 2007-2011 | data_corpus_irish30
 
