@@ -22,7 +22,7 @@ The American Presidency Project,
 data_corpus_sotu
 }
 \description{
-A corpus object 231 US State-of-the-Union addresses, from 1790
-  to 2017.
+A corpus object of every US State-of-the-Union address, from 1790
+  to present.
 }
 \keyword{datasets}

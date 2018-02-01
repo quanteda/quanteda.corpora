@@ -65,8 +65,8 @@
 
 #' U.S. State of the Union addresses from 1790 to 2016
 #' 
-#' A corpus object 231 US State-of-the-Union addresses, from 1790
-#'   to 2017. 
+#' A corpus object of every US State-of-the-Union address, from 1790
+#'   to present. 
 #' @format 
 #'   The corpus includes the following document variables: \describe{
 #'   \item{FirstName}{President's first and middle names.}
