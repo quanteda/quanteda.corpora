@@ -122,8 +122,26 @@ I offer these suggestions, believing them worthy of consideration, in all seriou
 
 Forwarded herewith will be found the report of the commissioners appointed under an act of Congress approved June 20, 1874, to wind up the affairs of the District government. It will be seen from the report that the net debt of the District of Columbia, less securities on hand and available, is:
 
-Bonded debt issued prior to July 1, 1874 - - $8,883,940.93
+Bonded debt issued prior to July 1, 1874		$8,883,940.93
+3.65 bonds, act of Congress June 20, 1874		2,088,168.73
+Certificates of the board of audit		4,770,558.45
+15,742,667.61
+Less special-improvement assesments
+(chargeable to private property) in excess of any
+demand against such assessments	$1,614,054.37
+Less Chesapeake and Ohio Canal bonds	75,000.00
+And Washington and Alexandria Railroad bonds	59,000.00
+In the hands of the commissioners of the sinking fund		1,748,054.37
+Leaving actual debt, less said assets		13,994,613.24
 
-3.65 bonds, act of Congress June 20, 1874 - - 2,088,168.73
+In addition to this there are claims preferred against the government of the District amounting, in the estimated aggregate reported by the board of audit, to $3,147,787.48, of which the greater part will probably be rejected. This sum can with no more propriety be included in the debt account of the District government than can the thousands of claims against the General Government be included as a portion of the national debt. But the aggregate sum thus stated includes something more than the funded debt chargeable exclusively to the District of Columbia. The act of Congress of June 20, 1874, contemplates an apportionment between the United States Government and the District of Columbia in respect of the payment of the principal and interest of the 3.65 bonds. Therefore in computing with precision the bonded debt of the District the aggregate sums above stated as respects 3.65 bonds now issued, the outstanding certificates of the board of audit, and the unadjusted claims pending before that board should be reduced to the extent of the amount to be apportioned to the United States Government in the manner indicated in the act of Congress of June 20, 1874.
 
-Certificates of the board of audit - - 4,770,558.45
+I especially invite your attention to the recommendations of the commissioners of the sinking fund relative to the ambiguity of the act of June 20, 1874, the interest on the District bonds, and the consolidation of the indebtedness of the District.
+
+I feel much indebted to the gentlemen who consented to leave their private affairs and come from a distance to attend to the business of this District, and for the able and satisfactory manner in which it has been conducted. I am sure their services will be equally appreciated by the entire country.
+
+It will be seen from the accompanying full report of the board of health that the sanitary condition of the District is very satisfactory.
+
+In my opinion the District of Columbia should be regarded as the grounds of the national capital, in which the entire people are interested. I do not allude to this to urge generous appropriations to the District, but to draw the attention of Congress, in framing a law for the government of the District, to the magnificent scale on which the city was planned by the founders of the Government; the manner in which, for ornamental purposes, the reservations, streets, and avenues were laid out, and the proportion of the property actually possessed by the General Government. I think the proportion of the expenses of the government and improvements to be borne by the General Government, the cities of Washington and Georgetown, and the county should be carefully and equitably defined.
+
+In accordance with section 3, act approved June 23, 1874, I appointed a board to make a survey of the mouth of the Mississippi River with a view to determine the best method of obtaining and maintaining a depth of water sufficient for the purposes of commerce, etc.; and in accordance with an act entitled "An act to provide for the appointment of a commission of engineers to investigate and report a permanent plan for the reclamation of the alluvial basin of the Mississippi River subject to inundation," I appointed a commission of engineers. Neither board has yet completed its labors. When their reports are received, they will be forwarded to Congress without delay.
