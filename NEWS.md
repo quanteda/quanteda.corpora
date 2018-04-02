@@ -6,7 +6,8 @@
 * Changed the encoding of `data_corpus_ukmanifestos` to UTF-8.  
 * Updated the `data_corpus_SOTU` with improved docvars.  
 * Added Trump 2017 to `data_corpus_SOTU`.
-* Fixed a number of mistakes from the `data_corpus_sotu`, caused by tables in the HTML source.
+* Fixed a number of mistakes from `data_corpus_sotu`, caused by tables in the HTML source.
+* Removed parenthetical remarks (such as "[Laughter.]") from the `data_corpus_sotu`.
 
 ## v0.81
 
