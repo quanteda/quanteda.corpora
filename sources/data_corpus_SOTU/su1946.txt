@@ -407,7 +407,7 @@ I do not doubt that the Congress will be beset by many groups who will urge that
 
 I strongly urge that the Congress now resolve all doubts and as soon as possible adopt legislation continuing rent and price control in effect for a full year from June 30, 1946.
 
-( b ) Food subsidies.
+(b) Food subsidies.
 
 If the price line is to be held, if our people are to be protected against the inflationary dangers which confront us, we must do more than extend the Price Control Act. In September we were hopeful that the inflationary pressures would by this time have begun to diminish. We were particularly hopeful on food. Indeed, it was estimated that food prices at retail would drop from 3 to 5 percent in the first six months following the end of the war.
 
@@ -600,7 +600,7 @@ The comprehensive health program which I recommended on November 19, 1945, will 
 
 Even without these proposed major additions, it would now be time to undertake a thorough reconsideration of our social security laws. The structure should be expanded and liberalized. Provision should be made for extending coverage credit to veterans for the period of their service in the armed forces. In the financial provisions we must reconcile the actuarial needs of social security, including health insurance, with the requirements of a revenue system that is designed to promote a high level of consumption and full employment.
 
-( k) Education.
+(k) Education.
 
 Although the major responsibility for financing education rests with the States, some assistance has long been given by the Federal Government. Further assistance is desirable and essential. There are many areas and some whole States where good schools cannot be provided without imposing an undue local tax burden on the citizens. It is essential to provide adequate elementary and secondary schools everywhere, and additional educational opportunities for large numbers of people beyond the secondary level. Accordingly, I repeat the proposal of last year's Budget Message that the Federal Government provide financial aid to assist the States in assuring more nearly equal opportunities for a good education. The proposed Federal grants for current educational expenditures should be made for the purpose of improving the educational system where improvement is most needed. They should not be used to replace existing non-Federal expenditures, or even to restore merely the situation which existed before the war.
 
@@ -648,9 +648,8 @@ The Budget total for the next fiscal year, the year that ends on June 30, 1947, 
 The estimated expenditures in the next and current fiscal year compare as follows with those of a year of global war and a prewar year:
 
 Total Budget expenditures
-
 Fiscal year: (in millions)
-
+--------
 1947 $35, 860
 1946 67,229
 1945 100, 031
@@ -663,25 +662,19 @@ On the other side of the ledger, net receipts are estimated at 31.5 billion doll
 As a result, estimated expenditures will exceed estimated receipts by 4.3 billion dollars. This amount can be provided by a reduction in the cash balance in the Treasury. Thus, after a long period of increasing public debt resulting from depression budgets and war budgets, it is anticipated that no increase in the Federal debt will be required next year.
 
 FEDERAL BUDGET EXPENDITURES AND BUDGET RECEIPTS
-
 Including net outlays of Government corporations and credit agencies (based on existing and proposed legislation)
-
+--------
 [In millions]
-
 Fiscal year
-
 Expenditures: 1946 1947
-
 Defense, war, and war liquidation $49,000 $15,000
 Aftermath of war: Veterans, interest, refunds 10,813 10,793
 International finance (including proposed legislation) 2,614 2,754
 Other activities 4,552 5,813
 Activities based on proposed legislation
 (excluding international finance) 250 1,500
-
 Total expenditures 67, 229 35, 860
 Receipts (net) 38, 609 31,513
-
 Excess of expenditures 28,620 4,347
 
 The current fiscal year, 1946, is a year of transition. When the year opened, in July 1945, we were still fighting a major war, and Federal expenditures were running at an annual rate of about 100 billion dollars. By June 1946 that rate will be more than cut in half. The Budget total for the current fiscal year is now estimated at 67.2 billion dollars, of which more than two-thirds provides for war and war liquidation. Since net receipts are estimated at 38.6 billion dollars, there will be an excess of expenditures of 28.6 billion dollars for the current fiscal year.
@@ -712,9 +705,10 @@ The largest increase in private activities has occurred in business investments,
 Consumers' budgets show a significant change. On the income side, their total has declined but little because the reduction in "take-home" pay of war workers is, to a large extent, offset for the time being by the mustering-out payments received by war veterans and by unemployment compensation received by the unemployed. On the expenditure side, however, consumers' budgets, restricted during the war, have in creased substantially as a result of the fact that scarce goods are beginning to appear on the market and wartime restraints are disappearing. Thus, consumers' current savings are declining substantially from the extraordinarily high wartime rate and some wartime savings are beginning to be used for long-delayed purchases.
 
 THE GOVERNMENT'S BUDGET AND THE NATION'S BUDGET
-Calendar year 1944 and October-December 1945
-[In billions]
 
+Calendar year 1944 and October-December 1945
+--------
+[In billions]
 Oct.-Dec. 1945 (start of
 reconversion) (in seasonally
 Calendar Year 1944 (global war) adjusted annual rates)
@@ -722,52 +716,35 @@ ______________________ ____________________
 Excess Excess
 Expendi- (+), def- Expendi- (+),def-
 Economic Group Receipts tures icit(-) Receipts tures icit(-)
-
 CONSUMERS
-
 Income after taxes $134 ....... ...... $132 ...... .......
 Expenditures ...... $98 ...... ...... $107 .......
-
 Excess of receipts, savings (+) ...... ...... +$35 ...... ...... +$25
-
 BUSINESS
-
 Undistributed profits and reserves $13 ...... ...... $9 ...... ......
 Gross capital formation:
 Domestic ...... $4 ...... ...... $15 ......
 Net exports1 ...... --2 ...... ...... 1 ......
-
 Total, gross capital formation ...... 2 ...... ...... 16 ......
-
 Excess of receipts (+) or capital
 formation (--) ...... ...... +$11 ...... ...... --$7
-
 STATE AND LOCAL GOVERNMENT
-
 Receipts from the public, other
 than borrowing $10 ...... ...... $11 ...... ......
 Payments to the public ...... $8 ...... ...... $9 ......
-
 Excess of receipts (+) ...... ...... +$2 ...... ...... +$2
-
 FEDERAL GOVERNMENT
-
 Receipts from the public, other
 than borrowing $48 ...... ....... $44 ...... ......
 Payments to the public ...... $96 ....... ...... $64 ......
-
 Excess of payments (--) ...... ...... --$48 ...... ....... --$20
 Less: Adjustments2 $7 $7 ....... $14 $14 .......
-
 TOTAL: GROSS NATIONAL PRODUCT
-
 Receipts $198 ....... ...... $182 ...... ......
 Expenditures ...... $198 ...... ...... $182 ......
-
 Balance ...... ...... 0 ...... ...... ......
-
-1Excludes exports for lend-lease and relief which are included in Federal Government expenditures.
-2Mainly government expenditures for other than goods and services, such as mustering-out pay and unemployment compensation.
+1 Excludes exports for lend-lease and relief which are included in Federal Government expenditures.
+2 Mainly government expenditures for other than goods and services, such as mustering-out pay and unemployment compensation.
 
 Unemployment has increased less than was expected during this first period of demobilization and reconversion. It is true that 6 million men and women have been discharged from the armed forces since May 1945 and more than 5 million have been laid off from war work. On the other hand, more than a million civilians have been enlisted in the armed forces, a considerable number of war veterans have not immediately sought jobs, and many war workers, especially women, have withdrawn from the labor force. In addition, many industries, and especially service trades which were undermanned during the war, are beginning now, for the first time in years, to recruit an adequate labor force. The reduced workweek has also contributed to the absorption of those released from war service and war work.
 
@@ -777,11 +754,9 @@ Although the first great shock of demobilization and war-work termination has th
 
 The Quarterly Report of the Director of War Mobilization and Reconversion analyzes the difficulties in recruiting personnel and obtaining materials that hamper reconversion in certain industries and proposes policies to deal with these situations. The lack of adequate housing is one of the main factors checking the flow of workers into areas where job opportunities exist.
 
-FEDERAL REVENUE, BORROWING, AND THE
-PUBLIC DEBT
+FEDERAL REVENUE, BORROWING, AND THE PUBLIC DEBT
 
-I. FINANCIAL REQUIREMENTS AND TAX
-POLICY
+I. FINANCIAL REQUIREMENTS AND TAX POLICY
 
 Recommendations for tax legislation should be considered not only in the light of the financial requirements of the ensuing year, but also in the light of future years' financial requirements and a full consideration of economic conditions.
 
@@ -807,14 +782,13 @@ The successful conclusion of the Victory loan marked the end of war borrowing an
 
 Because of the success of the Victory loan,. I am happy to report that the Treasury will not need to borrow any new money from the public during the remainder of the present fiscal year except through regular sales of savings bonds and savings notes. Furthermore, a part of the large cash balance now in the Treasury will be used for debt redemption so that the public debt which now amounts to about 278 billion dollars will decrease by several billion dollars during the next 18 months. The present statutory debt limit of 300 billion dollars will provide an ample margin for all of the public-debt transactions through the fiscal year 1947. The net effect of the excess of expenditures and debt redemption on the Treasury cash balance, as compared with selected previous years, is shown in the following table:
 
-EXCESS Of BUDGET EXPENDITURES, THE PUBLIC DEBT, AND THE TREASURY CASH BALANCE IN SELECTED YEARS
+EXCESS OF BUDGET EXPENDITURES, THE PUBLIC DEBT, AND THE TREASURY CASH BALANCE IN SELECTED YEARS
 [in billions]
-
+--------
 Excess of At end of period
 Budget ex- _____________________
 penditures Public Cash bal-
 Fiscal Year over receipts debt ance
-
 1940 $3. 9 $43. 0 $1. 9
 1945 53. 6 258. 7 24. 7
 1946:
@@ -836,8 +810,7 @@ During the past 6 months the net revenue receipts of the Federal Government have
 
 It is good to move toward a balanced budget and a start on the retirement of the debt at a time when demand for goods is strong and the business outlook is good. These conditions prevail today. Business is good and there are still powerful forces working in the direction of inflation. This is not the time for tax reduction.
 
-RECOMMENDATIONS FOR SPECIFIC FEDERAL
-ACTIVITIES
+RECOMMENDATIONS FOR SPECIFIC FEDERAL ACTIVITIES
 
 1. WAR LIQUIDATION AND NATIONAL DEFENSE
 

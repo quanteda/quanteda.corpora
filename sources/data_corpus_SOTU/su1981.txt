@@ -265,8 +265,7 @@ In 1978, I initiated the Administration's Solar Domestic Policy Review. This rep
 
 As a result of these policies and programs, the energy efficiency of the American economy has improved markedly and investments in renewable energy sources have grown significantly. It now takes 3ј percent less energy to produce a constant dollar of GNP than it did in January 1977. This increase in efficiency represents a savings of over 1.3 million barrels per day of oil equivalent, about the level of total oil production now occurring in Alaska. Over the same period, Federal support for conservation and solar energy has increased by more than 3000 percent, to $3.3 billion in FY 1981, including the tax credits for solar energy and energy conservation investments—these credits are expected to amount to $1.2 billion in FY 1981 and $1.5 billion in FY 1982.
 
-COMMITMENT TO NUCLEAR SAFETY AND
-SECURITY
+COMMITMENT TO NUCLEAR SAFETY AND SECURITY
 
 Since January 1977, significant progress has been achieved in resolving three critical problems resulting from the use of nuclear energy: radioactive waste management, nuclear safety and weapons proliferation.
 
@@ -280,9 +279,7 @@ Nuclear safety will remain a vital concern in the years ahead. We must continue 
 
 While significant growth in foreign demand for U.S. steam coal is foreseen, congestion must be removed at major U.S. coal exporting ports such as Hampton Roads, Virginia, and Baltimore, Maryland. My Administration has worked through the Interagency Coal Task Force Study to promote cooperation and coordination of resources between shippers, railroads, vessel broker/operators and port operators, and to determine the most appropriate Federal role in expanding and modernizing coal export facilities, including dredging deeper channels at selected ports. As a result of the Task Force's efforts, administrative steps have been taken by the Corps of Engineers to reduce significantly the amount of time required for planning and economic review of port dredging proposals. The Administration has also recommended that the Congress enact legislation to give the President generic authority to recommend appropriations for channel dredging activities. Private industry will, of course, play the major role in developing the United States' coal export facilities, but the government must continue to work to facilitate transportation to foreign markets.
 
-III. ENHANCING BASIC HUMAN AND
-
-SOCIAL NEEDS
+III. ENHANCING BASIC HUMAN AND SOCIAL NEEDS
 
 For too long prior to my Administration, many of our Nation's basic human and social needs were being ignored or handled insensitively by the Federal government. Over the last four years, we have significantly increased funding for many of the vital programs in these areas; developed new programs where needs were unaddressed; targeted Federal support to those individuals and areas most in need of our assistance; and removed barriers that have unnecessarily kept many disadvantaged citizens from obtaining aid for their most basic needs.
 
@@ -290,7 +287,7 @@ Our record has produced clear progress in the effort to solve some of the countr
 
 But there is an unfinished agenda still before the Congress. If we are to meet our obligations to help all Americans realize the dreams of sound health care, decent housing, effective social services, a good education, and a meaningful job, important legislation still must be enacted. National Health Insurance, Welfare Reform, Child Health Assessment Program, are before the Congress and I urge their passage.
 
-Health
+HEALTH
 
 NATIONAL HEALTH PLAN
 
@@ -366,7 +363,7 @@ At the beginning of my Administration there were over a half million heroin addi
 
 Drug abuse in many forms will continue to detract, however, from the quality of life of many Americans. To prevent that, I see four great challenges in the years ahead. First, we must deal aggressively with the supplies of illegal drugs at their source, through joint crop destruction programs with foreign nations and increased law enforcement and border interdiction. Second, we must look to citizens and parents across the country to help educate the increasing numbers of American youth who are experimenting with drugs to the dangers of drug abuse. Education is a key factor in reducing drug abuse. Third, we must focus our efforts on drug and alcohol abuse in the workplace for not only does this abuse contribute to low productivity but it also destroys the satisfaction and sense of purpose all Americans can gain from the work experience. Fourth, we need a change in attitude, from an attitude which condones the casual use of drugs to one that recognizes the appropriate use of drugs for medical purposes and condemns the inappropriate and harmful abuse of drugs. I hope the Congress and the new Administration will take action to meet each of these challenges.
 
-Education
+EDUCATION
 
 The American people have always recognized that education is one of the soundest investments they can make. The dividends are reflected in every dimension of our national life—from the strength of our economy and national security to the vitality of our music, art, and literature. Among the accomplishments that have given me the most satisfaction over the last four years are the contributions that my Administration has been able to make to the well-being of students and educators throughout the country.
 
@@ -384,7 +381,7 @@ I am proud that this Administration has been able to provide the financial means
 
 Last year, I proposed to the Congress a major legislative initiative that would direct $2 billion into education and job training programs designed to alleviate youth unemployment through improved linkages between the schools and the work place. This legislation generated bipartisan support; but unfortunately, action on it was not completed in the final, rushed days of the 96th Congress. I urge the new Congress—as it undertakes broad efforts to strengthen the economy as well as more specific tasks like reauthorizing the Vocational Education Act—to make the needs of our nation's unemployed youth a top priority for action. Only by combining a basic skills education program together with work training and employment incentives can we make substantial progress in eliminating one of the most severe social problems in our nation—youth unemployment, particularly among minorities. I am proud of the progress already made through passage of the Youth Employment and Demonstration Project Act of 1977 and the substantial increase in our investment in youth employment programs. The new legislation would cap these efforts.
 
-Income Security
+INCOME SECURITY
 
 SOCIAL SECURITY
 
@@ -416,7 +413,7 @@ In response to the extreme heat conditions affecting many parts of the country d
 
 Congress amended and reauthorized the low-income energy assistance program for fiscal year 1981, and provided $1.85 billion to meet anticipated increasing need. The need for a program to help low income households with rising energy expenses will not abate in the near future. The low-income energy assistance program should be reauthorized to meet those needs.
 
-Housing
+HOUSING
 
 For the past 14 months, high interest rates have had a severe impact on the nation's housing market. Yet the current pressures and uncertainties should not obscure the achievements of the past four years.
 
@@ -436,7 +433,7 @@ To address these issues, I appointed a Presidential Task Force and Advisory Grou
 
 The most important action government can take to meet America's housing needs is to restore stability to the economy and bring down the rate of inflation. Inflation has driven up home prices, operating costs and interest rates. Market uncertainty about inflation has contributed to the instability in interest rates, which has been an added burden to homebuilders and homebuyers alike. By making a long-term commitment to provide a framework for greater investment, sustained economic growth, and price stability, my Administration has begun the work of creating a healthy environment for housing.
 
-Transportation
+TRANSPORTATION
 
 With the passage of the Airline Deregulation Act of 1978, the Motor Carrier Act of 1980, and the Harley O. Staggers Rail Act of 1980, my Administration, working with the Congress, has initiated a new era of reduced regulation of transportation industries. Deregulation will lead to increased productivity and operating efficiencies in the industries involved, and stimulate price and service competition, to the benefit of consumers generally. I urge the new Administration to continue our efforts on behalf of deregulation legislation for the intercity passenger bus industry as well.
 
@@ -520,7 +517,7 @@ Some progress has already been made. In addition to action taken by transshipper
 
 Private industry will, of course, play a major role in developing the United States' coal export facilities. The new Administration should continue to work to eliminate transportation bottlenecks that impede our access to foreign markets.
 
-Special Needs
+SPECIAL NEEDS
 
 WOMEN
 
@@ -600,7 +597,7 @@ Second, we have focused the VA health care system in the needs of the service-co
 
 Third, the VA health care system—the largest in the free world—has maintained its independence and high quality during my Administration. We have made the system more efficient and have therefore treated more veterans than ever before by concentrating on out-patient care and through modern management improvements. As the median age of the American veteran population increases, we must concentrate on further changes within the VA system to keep it independent and to serve as a model to the nation and to the world as a center for research, treatment and rehabilitation.
 
-Government Assistance
+GOVERNMENT ASSISTANCE
 
 GENERAL AID TO STATE AND LOCAL GOVERNMENTS
 
@@ -620,7 +617,7 @@ COUNTER-CYCLICAL ASSISTANCE
 
 Last year, I proposed that Congress enact a $1 billion counter-cyclical fiscal assistance program to protect States and localities from unexpected changes in the national economy. This program unfortunately was not enacted by the [full] Congress. I, therefore, have not included funding for counter-cyclical aid in my Fiscal Year 1982 budget. Nevertheless, I urge Congress to enact a permanent stand-by counter-cyclical program, so that States and cities can be protected during the next economic downturn.
 
-Urban Policy
+URBAN POLICY
 
 Three years ago, I proposed the Nation's first comprehensive urban policy. That policy involved more than one hundred improvements in existing Federal programs, four new Executive Orders and nineteen pieces of urban-oriented legislation. With Congress' cooperation, sixteen of these bills have now been signed into law.
 
@@ -644,7 +641,7 @@ During my Administration we have taken numerous positive steps to achieve a full
 
 The Federal government will need to develop more innovative and practical ways for neighborhood based organizations to successfully participate in the identification and solution of local and neighborhood concerns. Full partnership will only be achieved with the knowing participation of leaders of government, business, education and unions. Neither state nor Federal solutions imposed from on high will suffice. Neighborhoods are the fabric and soul of this great land. Neighborhoods define the weave that has been used to create a permanent fabric. The Federal government must take every opportunity to provide access and influence to the individuals and organizations affected at the neighborhood level.
 
-Rural Policy
+RURAL POLICY
 
 Since the beginning of my Administration, I have been committed to improving the effectiveness with which the Federal government deals with the problems and needs of a rapidly changing rural America. The rapid growth of some rural areas has placed a heavy strain on communities and their resources. There are also persistent problems of poverty and economic stagnation in other parts of rural America. Some rural areas continue to lose population, as they have for the past several decades.
 
@@ -664,7 +661,7 @@ This effort on the part of my Administration and the Congress has resulted in a 
 
 With the help and dedication of a great many people around the country who are concerned with rural affairs, we have constructed a mechanism for dealing effectively with rural problems. There is now a great opportunity to successfully combine Federal efforts with the efforts of rural community leaders and residents. It is my hope this spirit of cooperation and record of accomplishment will be continued in the coming years.
 
-Consumers
+CONSUMERS
 
 In September, 1979, I signed an Executive Order designed to strengthen and coordinate Federal consumer programs and to establish procedures to improve and facilitate consumer participation in government decision-making. Forty Federal agencies have adopted programs to comply with the requirements of the Order. These programs will improve complaint handling, provide better information to consumers, enhance opportunities for public participation in government proceedings, and assure that the consumer point of view is considered in all programs, policies, and regulations.
 
@@ -672,7 +669,7 @@ While substantial progress has been made in assuring a consumer presence in Fede
 
 It is essential that consumer representatives in government pay particular attention to the needs and interests of low-income consumers and minorities. The Office of Consumer Affairs' publication, People Power: What Communities Are Doing to Counter Inflation, catalogues some of the ways that government and the private sector can assist the less powerful in our society to help themselves. New ways should be found to help foster this new people's movement which is founded on the principle of self-reliance.
 
-Science and Technology
+SCIENCE AND TECHNOLOGY
 
 Science and technology contribute immeasurably to the lives of all Americans. Our high standard of living is largely the product of the technology that surrounds us in the home or factory. Our good health is due in large part to our ever increasing scientific understanding. Our national security is assured by the application of technology. And our environment is protected by the use of science and technology. Indeed, our vision of the future is often largely defined by the bounty that we anticipate science and technology will bring.
 
@@ -696,11 +693,11 @@ The Administration's space policy reaffirmed the separation of military space sy
 
 • Space Science Exploration. The goals of this Administration's policy in space science have been to: (1) continue a vigorous program of planetary exploration to understand the origin and evolution of the solar system; (2) utilize the space telescope and free-flying satellites to usher in a new era of astronomy; (3) develop a better understanding of the sun and its interaction with the terrestrial environment; and (4) utilize the Shuttle and Spacelab to conduct basic research that complements earth-based life science investigations.
 
-District of Columbia
+DISTRICT OF COLUMBIA
 
 Washington, D.C., is home to both the Federal Government and to more than half a million American citizens. I have worked to improve the relationship between the Federal establishment and the Government of the District of Columbia in order to further the goals and spirit of home rule. The City controls more of its own destiny than was the case four years ago. Yet, despite the close cooperation between my Administration and that of Mayor Barry, we have not yet seen the necessary number of states ratify the Constitutional Amendment granting full voting representation in the Congress to the citizens of this city. It is my hope that this inequity will be rectified. The country and the people who inhabit Washington deserve no less.
 
-The Arts
+THE ARTS
 
 The arts are a precious national resource.
 
@@ -720,7 +717,7 @@ It is my hope that during the coming years the new Administration and the Congre
 
 • Provide grants for the arts in low income neighborhoods.
 
-The Humanities
+THE HUMANITIES
 
 In recently reauthorizing Federal appropriations for the National Endowment for the Humanities, the Congress has once again reaffirmed that "the encouragement and support of national progress and scholarship in the humanities . . . while primarily a matter for private and local initiative, is also an appropriate matter of concern to the Federal Government" and that "a high civilization must not limit its efforts to science and technology alone but must give full value and support to the other great branches of man's scholarly and cultural activity in order to achieve a better understanding of the past, a better analysis of the present, and a better view of the future."
 
@@ -742,7 +739,7 @@ The dominant effort in the Endowment's expenditures will be a commitment to stre
 
 In making its grants the Endowment will increase its emphasis on techniques which stimulate support for the humanities from non-Federal sources, in order to reinforce our tradition of private philanthropy in this field, and to insure and expand the financial viability of our cultural institutions and life.
 
-Insular Areas
+INSULAR AREAS
 
 I have been firmly committed to self-determination for Puerto Rico, the Virgin Islands, Guam, American Samoa and the Northern Mariana Islands, and have vigorously supported the realization of whatever political status aspirations are democratically chosen by their peoples. This principle was the keystone of the comprehensive territorial policy I sent the Congress last year. I am pleased that most of the legislative elements of that policy were endorsed by the 96th Congress.
 
@@ -856,7 +853,7 @@ NATURAL RESOURCES
 
 Two of our Nation's most precious natural resources are our environment and our vast agricultural capacity. From the beginning of my Administration, I have worked with the Congress to enhance and protect, as well as develop our natural resources. In the environmental areas, I have been especially concerned about the importance of balancing the need for resource development with preserving a clean environment, and have taken numerous actions to foster this goal. In the agricultural area, I have taken the steps needed to improve farm incomes and to increase our agricultural production to record levels. That progress must be continued in the 1980's.
 
-Environment
+ENVIRONMENT
 
 Preserving the quality of our environment has been among the most important objectives of my Administration and of the Congress. As a result of these shared commitments and the dedicated efforts of many members of the Congress and my Administration, we have achieved several historic accomplishments.
 
@@ -873,11 +870,8 @@ In addition to the Alaska Lands Act. over the past four years we have been able 
 Administration actions over the past four years stressed the importance of providing Federal support only for water resource projects that are economically and environmentally sound. This policy should have a major and lasting influence on the federal government's role in water resource development and management. The Administration's actions to recommend to the Congress only economically and environmentally sound water resource projects for funding resulted not only in our opposing uneconomic projects but also—in 1979—in the first Administration proposal of new project starts in 4 years.
 
 One of the most significant water policy actions of the past four years was the Administration's June 6, 1978 Water Policy Reform Message to the Congress. This Message established a new national water resources policy with the following objectives:
-
 • to give priority emphasis to water conservation;
-
 • to consider environmental requirements and values more fully and along with economic factors in the planning and management of water projects and programs;
-
 • to enhance cooperation between state and federal agencies in water resources planning and management.
 
 In addition, the Executive Office of the President established 11 policy decision criteria to evaluate the proposed federal water projects, the Water Resources Council developed and adopted a new set of Principles and Standards for water projects which is binding on all federal construction agencies, and improved regulations were developed to implement the National Historic Preservation Act and the Fish and Wildlife Coordination Act. As a result, water resource projects must be determined to be economically sound before the Administration will recommend authorization or appropriation. Over the years ahead, this policy will help to reduce wasteful federal spending by targeting federal funds to the highest priority water resource projects.
@@ -922,7 +916,7 @@ For the future, we cannot—and we must not—forget that we are charged with th
 
 • that we protected the habitat and the existence of our own species on this earth.
 
-Agriculture
+AGRICULTURE
 
 THE FARM ECONOMY
 
@@ -971,7 +965,6 @@ VII. FOREIGN POLICY
 From the time I assumed office four years ago this month, I have stressed the need for this country to assert a leading role in a world undergoing the most extensive and intensive change in human history.
 
 My policies have been directed in particular at three areas of change:
-
 • the steady growth and increased projection abroad of Soviet military power-power that has grown faster than our own over the past two decades.
 
 • the overwhelming dependence of Western nations, which now increasingly includes the United States, on vital oil supplies from the Middle East.
@@ -1022,7 +1015,7 @@ We have no basic quarrel with the nation, the revolution or the people of Iran. 
 
 But that will not be possible so long as Iran continues to hold Americans hostages, in defiance of the world community and civilized behavior. They must be released unharmed. We have thus far pursued a measured program of peaceful diplomatic and economic steps in an attempt to resolve this issue without resorting to other remedies available to us under international law. This reflects the deep respect of our nation for the rule of law and for the safety of our people being held, and our belief that a great power bears a responsibility to use its strength in a measured and judicious manner. But our patience is not unlimited and our concern for the well-being of our fellow citizens grows each day.
 
-Enhancing National Security—American Military Strength
+ENHANCING NATIONAL SECURITY—AMERICAN MILITARY STRENGTH
 
 The maintenance of national security is my first concern, as it has been for every president before me.
 
@@ -1166,7 +1159,7 @@ Our national interests are critically dependent on a strong and effective intell
 
 The intelligence budget I have submitted to the Congress responds to our needs in a responsible way, providing for significant growth over the Fiscal Year 1981 budget. This growth will enable us to develop new technical means of intelligence collection while also assuring that the more traditional methods of intelligence work are also given proper stress. We must continue to integrate both modes of collection in our analyses.
 
-Regional Policies
+REGIONAL POLICIES
 
 Every President for over three decades has recognized that America's interests are global and that we must pursue a global foreign policy.
 
@@ -1375,8 +1368,7 @@ Good progress has been made since the Tokyo Economic Summit called for increased
 
 The goal of freeing the world from hunger by the year 2000 should command the full support of all countries.
 
-The Human Dimension of Foreign
-Policy
+THE HUMAN DIMENSION OF FOREIGN POLICY
 
 HUMAN RIGHTS
 
@@ -1418,7 +1410,7 @@ In April, 1980, the Congress passed the Refugee Act of 1980 which brought togeth
 
 It cannot be ignored that the destructive and aggressive policies of the Soviet Union have added immeasurably to the suffering in these three tragic situations.
 
-The Control of Nuclear Weapons
+THE CONTROL OF NUCLEAR WEAPONS
 
 Together with our friends and allies, we are striving to build a world in which peoples with diverse interests can live freely and prosper. But all that humankind has achieved to date, all that we are seeking to accomplish, and human existence itself can be undone in an instant—in the catastrophe of a nuclear war.
 
