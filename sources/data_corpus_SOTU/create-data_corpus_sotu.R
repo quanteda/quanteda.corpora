@@ -12,7 +12,12 @@ SOTUdocvars$nwords <- NULL
 
 library("readtext")
 SOTUCorpus <- corpus(readtext("sources/data_corpus_SOTU/su*.txt"),
-                     metacorpus = list(source = "http://www.presidency.ucsb.edu/sou.php"))
+                     metacorpus = list(source = "http://www.presidency.ucsb.edu/sou.php"),
+                     docid_field = "doc_id")
+
+# check that docnames and filenames are the same
+stopifnot(all.equal(SOTUdocvars$filename, docnames(SOTUCorpus)))
+
 docvars(SOTUCorpus) <- c(docvars(SOTUCorpus), SOTUdocvars)
 docnames(SOTUCorpus) <- paste(docvars(SOTUCorpus, "President"), 
                               gsub("su|\\.txt", "", docvars(SOTUCorpus, "filename")), 

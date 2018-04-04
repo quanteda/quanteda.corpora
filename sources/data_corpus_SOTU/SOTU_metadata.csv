@@ -155,6 +155,7 @@ Franklin D.,Roosevelt,"January 6, 1942",spoken,3511,SOTU,su1942.txt,Democratic
 Franklin D.,Roosevelt,"January 7, 1943",spoken,4588,SOTU,su1943.txt,Democratic
 Franklin D.,Roosevelt,"January 11, 1944",spoken,3805,SOTU,su1944.txt,Democratic
 Franklin D.,Roosevelt,"January 6, 1945",written,8211,SOTU,su1945.txt,Democratic
+Franklin D.,Roosevelt,"January 6, 1945",spoken,,SOTU,su1945b.txt,Democratic
 Harry S.,Truman,"January 21, 1946",written,27465,SOTU,su1946.txt,Democratic
 Harry S.,Truman,"January 6, 1947",spoken,6028,SOTU,su1947.txt,Democratic
 Harry S.,Truman,"January 7, 1948",spoken,5094,SOTU,su1948.txt,Democratic
@@ -167,6 +168,7 @@ Dwight D.,Eisenhower,"February 2, 1953",spoken,6973,SOTU,su1953b.txt,Republican
 Dwight D.,Eisenhower,"January 7, 1954",spoken,5985,SOTU,su1954.txt,Republican
 Dwight D.,Eisenhower,"January 6, 1955",spoken,7250,SOTU,su1955.txt,Republican
 Dwight D.,Eisenhower,"January 5, 1956",written,8265,SOTU,su1956.txt,Republican
+Dwight D.,Eisenhower,"January 5, 1956",spoken,,SOTU,su1956b.txt,Republican
 Dwight D.,Eisenhower,"January 10, 1957",spoken,4137,SOTU,su1957.txt,Republican
 Dwight D.,Eisenhower,"January 9, 1958",spoken,4915,SOTU,su1958.txt,Republican
 Dwight D.,Eisenhower,"January 9, 1959",spoken,4933,SOTU,su1959.txt,Republican
@@ -184,14 +186,19 @@ Lyndon B.,Johnson,"January 14, 1969",spoken,4115,SOTU,su1969.txt,Democratic
 Richard,Nixon,"January 22, 1970",spoken,4457,SOTU,su1970.txt,Republican
 Richard,Nixon,"January 22, 1971",spoken,4508,SOTU,su1971.txt,Republican
 Richard,Nixon,"January 20, 1972",spoken,3976,SOTU,su1972.txt,Republican
+Richard,Nixon,"January 20, 1972",written,,SOTU,su1972b.txt,Republican
 Richard,Nixon,"February 2, 1973",written,27147,SOTU,su1973.txt,Republican
 Richard,Nixon,"January 30, 1974",spoken,5144,SOTU,su1974.txt,Republican
+Richard,Nixon,"January 30, 1974",written,,SOTU,su1974b.txt,Republican
 Gerald R.,Ford,"January 15, 1975",spoken,4126,SOTU,su1975.txt,Republican
 Gerald R.,Ford,"January 19, 1976",spoken,4948,SOTU,su1976.txt,Republican
 Gerald R.,Ford,"January 12, 1977",spoken,4727,SOTU,su1977.txt,Republican
 Jimmy,Carter,"January 19, 1978",spoken,4580,SOTU,su1978.txt,Democratic
+Jimmy,Carter,"January 19, 1978",written,,SOTU,su1978b.txt,Democratic
 Jimmy,Carter,"January 25, 1979",spoken,3257,SOTU,su1979.txt,Democratic
+Jimmy,Carter,"January 25, 1979",written,,SOTU,su1979b.txt,Democratic
 Jimmy,Carter,"January 21, 1980",spoken,3412,SOTU,su1980.txt,Democratic
+Jimmy,Carter,"January 21, 1980",written,,SOTU,su1980b.txt,Democratic
 Jimmy,Carter,"January 16, 1981",written,33667,SOTU,su1981.txt,Democratic
 Ronald,Reagan,"February 18, 1981",spoken,4446,other,su1981b.txt,Republican
 Ronald,Reagan,"January 26, 1982",spoken,5154,SOTU,su1982.txt,Republican
