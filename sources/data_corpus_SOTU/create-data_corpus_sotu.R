@@ -27,5 +27,4 @@ docvars(SOTUCorpus, setdiff(names(docvars(SOTUCorpus)),
 
 data_corpus_sotu <- SOTUCorpus
 
-devtools::use_data(data_corpus_sotu, overwrite = TRUE)
-
+usethis::use_data(data_corpus_sotu, overwrite = TRUE)

@@ -65,8 +65,9 @@
 
 #' U.S. State of the Union addresses from 1790 to 2016
 #' 
-#' A corpus object of every US State-of-the-Union address, from 1790
-#'   to present. 
+#' A corpus object of every US State-of-the-Union address, from 1790 to present.
+#' Where interjections or records of audience reaction occurred, such as
+#' "(Applause.)", these have been removed.
 #' @format 
 #'   The corpus includes the following document variables: \describe{
 #'   \item{FirstName}{President's first and middle names.}
