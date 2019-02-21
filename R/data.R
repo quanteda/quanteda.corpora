@@ -42,7 +42,7 @@
 
 #' UK news articles (2,833) from 2014 that mention immigration
 #' 
-#' A corpus of articles form the UK press in 2014 that mention the 
+#' A corpus of articles form the UK press in 2014 that mention 
 #'   immigration. See working paper: 
 #'   "\href{https://github.com/pnulty/LSEtext/blob/master/NultyPoletti.pdf}{The
 #'   Immigration Issue in the European Electoral Campaign in the UK: Text-Mining
@@ -60,7 +60,6 @@
 #' @keywords data
 #' @docType data
 "data_corpus_movies"
-
 
 
 #' U.S. State of the Union addresses from 1790 to 2016
@@ -87,6 +86,31 @@
 #' UK political party manifestos, 1945-2005
 #' 
 #' A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
-#' @references As used in Laver, Michael. 1998a. \'Party Policy in Britain, 1997: Results from an Expert Survey.\' Political Studies 46: 336–47.
 "data_corpus_ukmanifestos"
 
+#' UN General Debate speeches, 2017
+#' 
+#' A corpus of 196 speeches from the 2017 UN General Debate. 
+#' The raw corpus with all speeches since 1970 is available at: \url{https://doi.org/10.7910/DVN/0TJX8Y}. 
+#' The economic data for 2017 (GDP and GDP per capita) are downloaded from the World Bank website.
+#' @format 
+#'   The corpus includes the following document variables: \describe{
+#'   \item{country_iso}{ISO3c country code}
+#'   \item{un_session}{UN session}
+#'   \item{year}{4-digit year}
+#'   \item{country}{country code}
+#'   \item{continent}{continent of the country. Note that the speech delivered on behalf of the 
+#'   European Union is coded as "Europe".}
+#'   \item{gdp}{GDP (in US-$, 2017), derived from World Bank. C
+#'   Variable contains missing values for some countries.}
+#'   \item{gdp_per_capita}{GDP per capita (in US-$, 2017), derived from World Bank. 
+#'   Variable contains missing values for some countries.}
+#'   }
+#' @source Mikhaylov, M., Baturo, A., & Dasandi, N. (2017). United Nations General Debate Corpus. 
+#'   Harvard Dataverse, V4. URL: \url{https://doi.org/10.7910/DVN/0TJX8Y}.
+#' @references Mikhaylov, M., Baturo, A., & Dasandi, N. (2017). United Nations General Debate Corpus. 
+#'   Harvard Dataverse, V4. URL: \url{https://doi.org/10.7910/DVN/0TJX8Y}.
+#'   
+#'   Baturo, A., Dasandi, N., & Mikhaylov, S. (2017). \href{10.1177/2053168017712821}{Understanding State Preferences With Text As Data: 
+#'   Introducing the UN General Debate Corpus}. \emph{Research and Politics} 4(2): 1--9.
+"data_corpus_ungd2017"
