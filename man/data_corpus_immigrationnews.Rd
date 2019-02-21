@@ -11,7 +11,7 @@
 data_corpus_immigrationnews
 }
 \description{
-A corpus of articles form the UK press in 2014 that mention the 
+A corpus of articles form the UK press in 2014 that mention 
   immigration. See working paper: 
   "\href{https://github.com/pnulty/LSEtext/blob/master/NultyPoletti.pdf}{The
   Immigration Issue in the European Electoral Campaign in the UK: Text-Mining
