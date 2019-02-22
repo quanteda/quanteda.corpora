@@ -28,5 +28,5 @@ Larger corpora are also available from online locations using `download()`:
 
 Corpus | Name
 --|--
-Guradian newspaper articles in politics, economy, society and international sections from 2012 to 2016 | data_corpus_guardian
+_Guardian_ newspaper articles in politics, economy, society and international sections from 2012 to 2016 | data_corpus_guardian
 Transcripts of speeches at Japan's Committee on Foreign Affairs and Defense of the lower house (Shugiin) from 1947 to 2017 | data_corpus_foreignaffairscommittee
