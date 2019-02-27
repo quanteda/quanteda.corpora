@@ -11,8 +11,11 @@ License: GPL-3
 Depends:
     R (>= 3.4.0)
 Imports:
-    quanteda,
     digest
+Suggests:
+    quanteda,
+    spelling,
+    testthat
 URL: http://github.com/quanteda/quanteda.corpora
 BugReports: https://github.com/quanteda/quanteda.corpora/issues
 LazyData: TRUE
@@ -20,7 +23,4 @@ RoxygenNote: 6.1.1
 Collate:
     "download.R"
     "data.R"
-Suggests:
-    spelling,
-    testthat
 Language: en-GB
