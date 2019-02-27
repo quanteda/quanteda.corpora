@@ -3,7 +3,7 @@
 \docType{data}
 \name{data_corpus_sotu}
 \alias{data_corpus_sotu}
-\title{U.S. State of the Union addresses from 1790 to 2016}
+\title{U.S. State of the Union addresses from 1790 to present}
 \format{The corpus includes the following document variables: \describe{
   \item{FirstName}{President's first and middle names.}
   \item{President}{President's last name.}
