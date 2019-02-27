@@ -23,7 +23,7 @@ Download an RDS file from online locations
 }
 \details{
 Datasets currently available by \code{name} are: \describe{
-  \item{\code{data_corpus_guardian}}{6,000 Guradian newspaper articles in
+  \item{\code{data_corpus_guardian}}{6,000 Guardian newspaper articles in
   politics, economy, society and international sections from 2012 to 2016.}
   \item{\code{data_corpus_foreignaffairscommittee}}{Transcripts of all the 
   speeches at Japan's Committee on Foreign Affairs and Defense of the lower 
