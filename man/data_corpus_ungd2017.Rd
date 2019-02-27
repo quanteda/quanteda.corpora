@@ -6,7 +6,7 @@
 \title{UN General Debate speeches, 2017}
 \format{The corpus includes the following document variables: \describe{
   \item{country_iso}{ISO3c country code, e.g. "AFG" for Afghanistan}
-  \item{un_session}{UN session, a numeric identifer (in this case, 72)}
+  \item{un_session}{UN session, a numeric identifier (in this case, 72)}
   \item{year}{4-digit year (2017)}
   \item{country}{country name, in English}
   \item{continent}{continent of the country, one of: Africa, Americas, Asia,
