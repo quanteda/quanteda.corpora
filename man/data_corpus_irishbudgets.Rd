@@ -3,19 +3,19 @@
 \docType{data}
 \name{data_corpus_irishbudgets}
 \alias{data_corpus_irishbudgets}
-\title{Annual budget speeches from the Irish Dail, 2008-2012}
+\title{Annual budget speeches from the Dáil Éireann, 2008-2012}
 \format{\code{year} 4-digit year of the debate; \code{debate} character 
   indicating whether the debate concerned a main debate (\code{"BUDGET"} or
   supplementary budget \code{"BUDGETSUP"}); \code{number} two-digit number as
   a character, indicating the order of the speech within the debate;
   \code{namefirst} and \code{namelast} first and last name of the speaker;
-  and \code{party} a character abbrevation of the political party of the speaker.}
+  and \code{party} a character abbreviation of the political party of the speaker.}
 \usage{
 data_corpus_irishbudgets
 }
 \description{
-Speeches and document-level variables from Irish budget debates held 
-annually, for the years 2008-2012.
+Speeches and document-level variables from Irish budget debates held annually
+in Dáil Éireann (the Irish Parliament), for the years 2008-2012.
 }
 \references{
 Alexander Herzog and Kenneth Benoit. 2015. 

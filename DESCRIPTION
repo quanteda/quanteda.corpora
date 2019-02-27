@@ -20,3 +20,7 @@ RoxygenNote: 6.1.1
 Collate:
     "download.R"
     "data.R"
+Suggests:
+    spelling,
+    testthat
+Language: en-GB
