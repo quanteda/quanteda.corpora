@@ -110,7 +110,7 @@
 #' @format 
 #'   The corpus includes the following document variables: \describe{
 #'   \item{Country}{Country name (UK).}
-#'   \item{Type}{Character indicating the type of election: national (\code{natl}) or regional (\code{regl}).} }
+#'   \item{Type}{Character indicating the type of election: national (\code{natl}) or regional (\code{regl}.}
 #'   \item{Language}{Language (\code{en}).}
 #'   \item{Party}{A character abbreviation of the political party.}
 #'   }
