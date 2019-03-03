@@ -1,10 +1,11 @@
 Package: quanteda.corpora
 Type: Package
 Title: A collection of corpora for quanteda
-Version: 0.86
+Version: 0.87
 Date: 2019-02-11
 Authors@R: c(person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role = c("aut", "cre")), 
-             person("Kohei", "Watanabe", email = "watanabe.kohei@gmail.com", role = "ctb"))
+             person("Kohei", "Watanabe", email = "watanabe.kohei@gmail.com", role = "ctb"),
+             person("Müller", "Stefan", email = "mueller@ipz.uzh.ch", role = "ctb"))
 Description: A collection of corpus objects for the quanteda text analysis package.
 Encoding: UTF-8
 License: GPL-3
