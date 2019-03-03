@@ -9,9 +9,19 @@
 data_corpus_movies
 }
 \description{
-A corpus object containing 2000 movie reviews classified by positive or negative sentiment
+A corpus object containing 2,000 movie reviews classified by positive or negative sentiment.
+ @format 
+  The corpus includes the following document variables: \describe{
+  \item{Sentiment}{Character indicating whether a review was manually classified as 
+  positive \code{pos} or negative \code{neg}.}
+  \item{id1}{Character counting the position in the corpus.}
+  \item{id2}{Random number for each review.}
+  }
 }
 \references{
-\url{http://dl.acm.org/citation.cfm?id=1118704}
+Pan, B., Lee, L., & Vaithyanathn, S. (2002). 
+   "\href{http://dl.acm.org/citation.cfm?id=1118704}{Thumbs Up? Sentiment Classification Using
+   Machine Learning Techniques}." \emph{Proceedings of the ACL-02 conference on 
+   Empirical methods in natural language processing}: 79--86.
 }
 \keyword{data}

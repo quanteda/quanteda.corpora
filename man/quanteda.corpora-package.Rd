@@ -17,6 +17,7 @@ A set of texts and corpus objects for use with the quanteda R package.
 Other contributors:
 \itemize{
   \item Kohei Watanabe \email{watanabe.kohei@gmail.com} [contributor]
+  \item Müller Stefan \email{mueller@ipz.uzh.ch} [contributor]
 }
 
 }

@@ -3,12 +3,12 @@
 \docType{data}
 \name{data_corpus_ukmanifestos}
 \alias{data_corpus_ukmanifestos}
-\title{UK political party manifestos, 1945-2005}
+\title{UK political party manifestos, 1945--2005}
 \format{An object of class \code{corpus} (inherits from \code{list}) of length 4.}
 \usage{
 data_corpus_ukmanifestos
 }
 \description{
-A corpus object containing 105 UK Manifestos from 1945-2005, with party and year attributes
+A corpus object containing 105 UK Manifestos from 1945--2005, with party and year attributes
 }
 \keyword{datasets}
