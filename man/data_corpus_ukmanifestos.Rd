@@ -14,6 +14,6 @@
 data_corpus_ukmanifestos
 }
 \description{
-A corpus object containing 105 UK Manifestos from 1945--2005, with party and year attributes
+A corpus object containing 105 UK Manifestos from 1945--2005, with party and year attributes.
 }
 \keyword{datasets}

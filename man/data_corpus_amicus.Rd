@@ -4,11 +4,11 @@
 \name{data_corpus_amicus}
 \alias{data_corpus_amicus}
 \title{Amicus curiae briefs from Bakke (1978) and Bollinger (2008)}
-\format{The corpus consists of 100 texts and includes the following document variables: \describe{
+\format{The corpus consists of 102 documents and includes the following document variables: \describe{
   \item{trainclass}{A character indicating the class of 4 documents 
   that can be used to train a classifier (the remaining ones are NA);
   P: Pro-Petitioner; R: Pro-Respondent.}
-  \item{testclass}{A character indicating the "true" class of 96 remaining documents 
+  \item{testclass}{A character indicating the "true" class of 98 remaining documents 
   to assess the prediction of the classification; AP: Pro-Petitioner; AR: Pro-Respondent.}
   }}
 \usage{

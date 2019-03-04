@@ -10,11 +10,11 @@
 #' pro-respondent in US Supreme court cases on affirmative action, Bakke (1978)
 #' and Bollinger (2008), taken from Evans et al (2007).
 #' @format 
-#'   The corpus consists of 100 texts and includes the following document variables: \describe{
+#'   The corpus consists of 102 documents and includes the following document variables: \describe{
 #'   \item{trainclass}{A character indicating the class of 4 documents 
 #'   that can be used to train a classifier (the remaining ones are NA);
 #'   P: Pro-Petitioner; R: Pro-Respondent.}
-#'   \item{testclass}{A character indicating the "true" class of 96 remaining documents 
+#'   \item{testclass}{A character indicating the "true" class of 98 remaining documents 
 #'   to assess the prediction of the classification; AP: Pro-Petitioner; AR: Pro-Respondent.}
 #'   }
 #' @references Evans, M., McIntosh, W., Lin, J., & Cates, C. (2007). 
@@ -67,17 +67,18 @@
 #' Movie reviews from Pang, Lee, and Vaithyanathan (2002)
 #' 
 #' A corpus object containing 2,000 movie reviews classified by positive or negative sentiment.
-#'  @format 
+#' @format 
 #'   The corpus includes the following document variables: \describe{
 #'   \item{Sentiment}{Character indicating whether a review was manually classified as 
 #'   positive \code{pos} or negative \code{neg}.}
 #'   \item{id1}{Character counting the position in the corpus.}
 #'   \item{id2}{Random number for each review.}
 #'   }
-#' @references Pan, B., Lee, L., & Vaithyanathn, S. (2002). 
+#' @references Pang, B., Lee, L., & Vaithyanathn, S. (2002). 
 #'    "\href{http://dl.acm.org/citation.cfm?id=1118704}{Thumbs Up? Sentiment Classification Using
 #'    Machine Learning Techniques}." \emph{Proceedings of the ACL-02 conference on 
 #'    Empirical methods in natural language processing}: 79--86.
+#' @source \url{http://www.cs.cornell.edu/people/pabo/movie-review-data/}
 #' @keywords data
 #' @docType data
 "data_corpus_movies"
@@ -106,7 +107,7 @@
 
 #' UK political party manifestos, 1945--2005
 #' 
-#' A corpus object containing 105 UK Manifestos from 1945--2005, with party and year attributes
+#' A corpus object containing 105 UK Manifestos from 1945--2005, with party and year attributes.
 #' @format 
 #'   The corpus includes the following document variables: \describe{
 #'   \item{Country}{Country name (UK).}
