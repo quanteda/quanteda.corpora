@@ -3,13 +3,13 @@
 \docType{data}
 \name{data_corpus_sotu}
 \alias{data_corpus_sotu}
-\title{U.S. State of the Union addresses from 1790 to 2016}
+\title{U.S. State of the Union addresses from 1790 to present}
 \format{The corpus includes the following document variables: \describe{
   \item{FirstName}{President's first and middle names.}
   \item{President}{President's last name.}
   \item{Date}{Date of the delivery of the speech or document.}
   \item{delivery}{Either \code{written} or \code{spoken}, depending on the
-  format.  See Source.}
+  format. See Source.}
   \item{type}{Either \code{SOTU} for an official State of the Union Address,
   or \code{other}, for a different form of speech or message. See Source.}
   \item{party}{President's party.}

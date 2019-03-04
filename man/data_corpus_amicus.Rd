@@ -4,8 +4,13 @@
 \name{data_corpus_amicus}
 \alias{data_corpus_amicus}
 \title{Amicus curiae briefs from Bakke (1978) and Bollinger (2008)}
-\format{\code{amicusCorpus} is corpus with 100 texts, and \code{docvar} set
-  for petitioner/respondent}
+\format{The corpus consists of 102 documents and includes the following document variables: \describe{
+  \item{trainclass}{A character indicating the class of 4 documents 
+  that can be used to train a classifier (the remaining ones are NA);
+  P: Pro-Petitioner; R: Pro-Respondent.}
+  \item{testclass}{A character indicating the "true" class of 98 remaining documents 
+  to assess the prediction of the classification; AP: Pro-Petitioner; AR: Pro-Respondent.}
+  }}
 \usage{
 data_corpus_amicus
 }
@@ -15,8 +20,9 @@ pro-respondent in US Supreme court cases on affirmative action, Bakke (1978)
 and Bollinger (2008), taken from Evans et al (2007).
 }
 \references{
-Evans, Michael, et al. 2007. "Recounting the courts? Applying
-  automated content analysis to enhance empirical legal research." 
-  \emph{Journal of Empirical Legal Studies} 4(4): 1007-1039.
+Evans, M., McIntosh, W., Lin, J., & Cates, C. (2007). 
+  "\href{https://doi.org/10.1111/j.1740-1461.2007.00113.x}{Recounting the Courts? Applying
+  Automated Content Analysis to Enhance Empirical Legal Research}." 
+  \emph{Journal of Empirical Legal Studies} 4(4): 1007--1039.
 }
 \keyword{data}
