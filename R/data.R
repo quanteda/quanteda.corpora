@@ -57,7 +57,7 @@
 #'  The corpus consists of 2,883 documents and includes the following document variables: \describe{
 #'  \item{paperName}{Character indicating the newspaper.}
 #'  \item{day}{Number of days from Jan 1st 2014.}
-#'  \item{id}{Unique idenifier.}
+#'  \item{id}{Unique identifier.}
 #'  }
 #' @references Nulty, P. & Poletti, M. (2014). "The Immigration Issue in the UK in the 2014 
 #'   EU Elections: Text Mining the Public Debate." Presentation at LSE Text Mining Conference 2014.

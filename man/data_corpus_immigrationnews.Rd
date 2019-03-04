@@ -7,7 +7,7 @@
 \format{The corpus consists of 2,883 documents and includes the following document variables: \describe{
  \item{paperName}{Character indicating the newspaper.}
  \item{day}{Number of days from Jan 1st 2014.}
- \item{id}{Unique idenifier.}
+ \item{id}{Unique identifier.}
  }}
 \usage{
 data_corpus_immigrationnews
