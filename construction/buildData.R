@@ -89,7 +89,3 @@ str(parsed[1])
 
 texts <- sapply(parsed, `[[`, 5)
 metadata <- do.call(rbind, parsed)
-
-
-
-
