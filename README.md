@@ -22,7 +22,7 @@ Corpus | Name
 Amicus curiae briefs from Bakke (1978) and Bollinger (2008) | data_corpus_amicus
 Annual budget speeches from the Irish Dáil, 2008-2012 | data_corpus_irishbudgets
 UK news articles from 2014 that mention immigration | data_corpus_immigrationnews
-Movie reviews from Pang, Lee, and Vaithyanathan (2002) | data_corpus_movies
+Movie reviews from Pang, Lee, and Vaithyanathan (2002) | _moved to_ **quanteda.textmodels** 
 U.S. State of the Union addresses from 1790 to present | data_corpus_sotu
 UK political party manifestos, 1945-2005 | data_corpus_ukmanifestos
 UN General Debate speeches, 2017 | data_corpus_ungd2017
