@@ -10,7 +10,7 @@ Description: A collection of corpus objects for the quanteda text analysis packa
 Encoding: UTF-8
 License: GPL-3
 Depends:
-    R (>= 3.4.0)
+    R (>= 3.5.0)
 Imports:
     digest
 Suggests:
