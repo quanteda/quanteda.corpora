@@ -1,5 +1,9 @@
 # quantedaData change log
 
+## v0.90
+
+* Corpus object formats updated to quanteda v2.
+
 ## v0.85
 
 * Changed the names of data objects to be consistent with current **quanteda** nomenclature (>= v0.9.9).  

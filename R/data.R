@@ -64,26 +64,6 @@
 "data_corpus_immigrationnews"
 
 
-#' Movie reviews from Pang, Lee, and Vaithyanathan (2002)
-#' 
-#' A corpus object containing 2,000 movie reviews classified by positive or negative sentiment.
-#' @format 
-#'   The corpus includes the following document variables: \describe{
-#'   \item{Sentiment}{Character indicating whether a review was manually classified as 
-#'   positive \code{pos} or negative \code{neg}.}
-#'   \item{id1}{Character counting the position in the corpus.}
-#'   \item{id2}{Random number for each review.}
-#'   }
-#' @references Pang, B., Lee, L., & Vaithyanathn, S. (2002). 
-#'    "\href{http://dl.acm.org/citation.cfm?id=1118704}{Thumbs Up? Sentiment Classification Using
-#'    Machine Learning Techniques}." \emph{Proceedings of the ACL-02 conference on 
-#'    Empirical methods in natural language processing}: 79--86.
-#' @source \url{http://www.cs.cornell.edu/people/pabo/movie-review-data/}
-#' @keywords data
-#' @docType data
-"data_corpus_movies"
-
-
 #' U.S. State of the Union addresses from 1790 to present
 #' 
 #' A corpus object of every US State-of-the-Union address, from 1790 to present.
