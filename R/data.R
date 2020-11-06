@@ -130,3 +130,19 @@
 #'   As Data: Introducing the UN General Debate Corpus}. \emph{Research and
 #'   Politics} 4(2): 1--9.
 "data_corpus_ungd2017"
+
+#' Universal Declaration of Human Rights
+#' A corpus object containing Universal Declaration of Human Rights in 280 languages. 
+#' Original corpus is available at
+#' \url{http://research.ics.aalto.fi/cog/data/udhr/}.
+#' @format The corpus includes the following document variables: \describe{
+#'  \item{langauge} specifies the language of the texts.
+#'  \item{id} short identifier of the language.
+#' }
+#' @references Tommi Vatanen, Jaakko J. Väyrynen and Sami Virpioja (2010)
+#'   Language identification of short text segments with n-gram models. In
+#'   Proceedings of the Seventh International Conference on Language Resources
+#'   and Evaluation (LREC'10), pages 3423-3430. European Language Resources
+#'   Association (ELRA).
+"data_corpus_udhr"
+
