@@ -4,12 +4,12 @@
 \name{quanteda.corpora-package}
 \alias{quanteda.corpora}
 \alias{quanteda.corpora-package}
-\title{An R package containing texts and corpora for \link[quanteda]{quanteda}.}
+\title{An R package containing texts and corpora for \link[quanteda:quanteda-package]{quanteda}.}
 \description{
 A set of texts and corpus objects for use with the quanteda R package.
 }
 \seealso{
-\link[quanteda]{quanteda}
+\link[quanteda:quanteda-package]{quanteda}
 }
 \author{
 \strong{Maintainer}: Kenneth Benoit \email{kbenoit@lse.ac.uk}
