@@ -6,7 +6,7 @@
 \title{Universal Declaration of Human Rights}
 \format{
 The corpus includes the following document variables: \describe{
-\item{langauge}{specifies the language of the texts}
+\item{Language}{specifies the language of the texts}
 \item{LangID}{short identifier of the language}
 }
 }
