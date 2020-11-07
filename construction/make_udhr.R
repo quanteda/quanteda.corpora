@@ -2,7 +2,7 @@ require(readtext)
 require(quanteda)
 
 # http://research.ics.aalto.fi/cog/data/udhr/
-dat <- readtext("sources/udhr/txt/*.txt", encoding = "utf-8", 
+dat <- readtext("sources/udhr/txt/udhr_*.txt", encoding = "utf-8", 
                 docvarnames = "id", docvarsfrom = "filenames")
 dat$doc_id <- dat$id
 dat_name <- read.csv("sources/udhr/languages.txt", sep = "\t", col.names = c("id", "langauge"),
