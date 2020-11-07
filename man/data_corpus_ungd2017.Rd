@@ -4,23 +4,25 @@
 \name{data_corpus_ungd2017}
 \alias{data_corpus_ungd2017}
 \title{UN General Debate speeches, 2017}
-\format{The corpus includes the following document variables: \describe{
-  \item{country_iso}{ISO3c country code, e.g. "AFG" for Afghanistan}
-  \item{un_session}{UN session, a numeric identifier (in this case, 72)}
-  \item{year}{4-digit year (2017).}
-  \item{country}{Country name, in English.}
-  \item{continent}{Continent of the country, one of: Africa, Americas, Asia,
-  Europe, Oceania. Note that the speech delivered on behalf of the
-  European Union is coded as "Europe".}
-  \item{gdp}{GDP in $US for 2017, from the World Bank. Contains missing
-  values for 9 countries.}
-  \item{gdp_per_capita}{GDP per capita in $US for 2017, derived from the
-  World Bank. Contains missing values for 9 countries.}
-  }}
+\format{
+The corpus includes the following document variables: \describe{
+\item{country_iso}{ISO3c country code, e.g. "AFG" for Afghanistan}
+\item{un_session}{UN session, a numeric identifier (in this case, 72)}
+\item{year}{4-digit year (2017).}
+\item{country}{Country name, in English.}
+\item{continent}{Continent of the country, one of: Africa, Americas, Asia,
+Europe, Oceania. Note that the speech delivered on behalf of the
+European Union is coded as "Europe".}
+\item{gdp}{GDP in $US for 2017, from the World Bank. Contains missing
+values for 9 countries.}
+\item{gdp_per_capita}{GDP per capita in $US for 2017, derived from the
+World Bank. Contains missing values for 9 countries.}
+}
+}
 \source{
 Mikhaylov, M., Baturo, A., & Dasandi, N. (2017). United Nations
-  General Debate Corpus. Harvard Dataverse, V4. URL:
-  \url{https://doi.org/10.7910/DVN/0TJX8Y}.
+General Debate Corpus. Harvard Dataverse, V4. URL:
+\url{https://doi.org/10.7910/DVN/0TJX8Y}.
 }
 \usage{
 data_corpus_ungd2017
@@ -33,12 +35,11 @@ GDP per capita) are downloaded from the World Bank website.
 }
 \references{
 Mikhaylov, M., Baturo, A., & Dasandi, N. (2017). United Nations
-  General Debate Corpus. Harvard Dataverse, V4. URL:
-  \url{https://doi.org/10.7910/DVN/0TJX8Y}.
-  
-  Baturo, A., Dasandi, N., & Mikhaylov, S. (2017).
-  \href{10.1177/2053168017712821}{Understanding State Preferences With Text
-  As Data: Introducing the UN General Debate Corpus}. \emph{Research and
-  Politics} 4(2): 1--9.
+General Debate Corpus. Harvard Dataverse, V4. URL:
+\url{https://doi.org/10.7910/DVN/0TJX8Y}.
+
+Baturo, A., Dasandi, N., & Mikhaylov, S. (2017).
+\href{10.1177/2053168017712821}{Understanding State Preferences With Text As Data: Introducing the UN General Debate Corpus}. \emph{Research and
+Politics} 4(2): 1--9.
 }
 \keyword{datasets}

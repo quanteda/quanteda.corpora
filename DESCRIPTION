@@ -20,8 +20,9 @@ Suggests:
 URL: http://github.com/quanteda/quanteda.corpora
 BugReports: https://github.com/quanteda/quanteda.corpora/issues
 LazyData: TRUE
-RoxygenNote: 7.0.2
+RoxygenNote: 7.1.1
 Collate:
     "download.R"
     "data.R"
 Language: en-GB
+Roxygen: list(markdown = TRUE)

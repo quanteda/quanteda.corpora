@@ -4,15 +4,17 @@
 \name{data_corpus_irishbudgets}
 \alias{data_corpus_irishbudgets}
 \title{Annual budget speeches from the Dáil Éireann, 2008-2012}
-\format{The corpus includes the following document variables: \describe{
-  \item{year}{4-digit year of the debate.}
-  \item{debate}{Character indicating whether the debate concerned a main debate 
-  (\code{"BUDGET"} or supplementary budget \code{"BUDGETSUP"}).}
-  \item{number}{Two-digit number as a character, indicating the order of the speech within the debate.}
-  \item{namefirst}{First name of the speaker.}
-  \item{namelast}{Last name of the speaker.}
-  \item{party}{A character abbreviation of the political party of the speaker.}
-  }}
+\format{
+The corpus includes the following document variables: \describe{
+\item{year}{4-digit year of the debate.}
+\item{debate}{Character indicating whether the debate concerned a main debate
+(\code{"BUDGET"} or supplementary budget \code{"BUDGETSUP"}).}
+\item{number}{Two-digit number as a character, indicating the order of the speech within the debate.}
+\item{namefirst}{First name of the speaker.}
+\item{namelast}{Last name of the speaker.}
+\item{party}{A character abbreviation of the political party of the speaker.}
+}
+}
 \usage{
 data_corpus_irishbudgets
 }
@@ -21,14 +23,10 @@ Speeches and document-level variables from Irish budget debates held annually
 in Dáil Éireann (the Irish Parliament), for the years 2008--2012.
 }
 \references{
-Herzog, A. & Kenneth, K. (2015). 
-  "\href{http://www.kenbenoit.net/pdfs/Herzog_Benoit_JOP_2015.pdf}{The Most 
-  Unkindest Cuts: Speaker Selection and Expressed Government Dissent During 
-  Economic Crisis}." \emph{The Journal of Politics} 77(4): 1157--1175.
-  
-  Lowe, W. & Benoit, K. (2013). 
-  "\href{http://www.kenbenoit.net/pdfs/Political\%20Analysis-2013-Lowe-298-313.pdf}{Validating
-   Estimates of Latent Traits From Textual Data Using Human Judgment as a 
-  Benchmark}." \emph{Political Analysis} 21(3): 298-313.
+Herzog, A. & Kenneth, K. (2015).
+"\href{http://www.kenbenoit.net/pdfs/Herzog_Benoit_JOP_2015.pdf}{The Most Unkindest Cuts: Speaker Selection and Expressed Government Dissent During Economic Crisis}." \emph{The Journal of Politics} 77(4): 1157--1175.
+
+Lowe, W. & Benoit, K. (2013).
+"\href{http://www.kenbenoit.net/pdfs/Political\%20Analysis-2013-Lowe-298-313.pdf}{Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark}." \emph{Political Analysis} 21(3): 298-313.
 }
 \keyword{datasets}
