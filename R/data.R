@@ -1,7 +1,7 @@
-#' An R package containing texts and corpora for \link[quanteda]{quanteda}.
+#' An R package containing texts and corpora for [quanteda][quanteda::quanteda].
 #' 
 #' A set of texts and corpus objects for use with the quanteda R package.
-#' @seealso \link[quanteda]{quanteda}
+#' @seealso [quanteda][quanteda::quanteda]
 "_PACKAGE"
 
 #' Amicus curiae briefs from Bakke (1978) and Bollinger (2008)
@@ -18,9 +18,9 @@
 #'   to assess the prediction of the classification; AP: Pro-Petitioner; AR: Pro-Respondent.}
 #'   }
 #' @references Evans, M., McIntosh, W., Lin, J., & Cates, C. (2007). 
-#'   "\href{https://doi.org/10.1111/j.1740-1461.2007.00113.x}{Recounting the Courts? Applying
-#'   Automated Content Analysis to Enhance Empirical Legal Research}." 
-#'   \emph{Journal of Empirical Legal Studies} 4(4): 1007--1039.
+#'   "[Recounting the Courts? Applying
+#'   Automated Content Analysis to Enhance Empirical Legal Research](https://doi.org/10.1111/j.1740-1461.2007.00113.x)." 
+#'   *Journal of Empirical Legal Studies* 4(4): 1007--1039.
 #' @keywords data
 "data_corpus_amicus"
 
@@ -32,21 +32,21 @@
 #' @format The corpus includes the following document variables: \describe{
 #'   \item{year}{4-digit year of the debate.}
 #'   \item{debate}{Character indicating whether the debate concerned a main debate 
-#'   (\code{"BUDGET"} or supplementary budget \code{"BUDGETSUP"}).}
+#'   (`"BUDGET"` or supplementary budget `"BUDGETSUP"`).}
 #'   \item{number}{Two-digit number as a character, indicating the order of the speech within the debate.}
 #'   \item{namefirst}{First name of the speaker.}
 #'   \item{namelast}{Last name of the speaker.}
 #'   \item{party}{A character abbreviation of the political party of the speaker.}
 #'   }
 #' @references Herzog, A. & Kenneth, K. (2015). 
-#'   "\href{http://www.kenbenoit.net/pdfs/Herzog_Benoit_JOP_2015.pdf}{The Most 
+#'   "[The Most 
 #'   Unkindest Cuts: Speaker Selection and Expressed Government Dissent During 
-#'   Economic Crisis}." \emph{The Journal of Politics} 77(4): 1157--1175.
+#'   Economic Crisis](http://www.kenbenoit.net/pdfs/Herzog_Benoit_JOP_2015.pdf)." *The Journal of Politics* 77(4): 1157--1175.
 #'   
 #'   Lowe, W. & Benoit, K. (2013). 
-#'   "\href{http://www.kenbenoit.net/pdfs/Political\%20Analysis-2013-Lowe-298-313.pdf}{Validating
+#'   "[Validating
 #'    Estimates of Latent Traits From Textual Data Using Human Judgment as a 
-#'   Benchmark}." \emph{Political Analysis} 21(3): 298-313.
+#'   Benchmark](http://www.kenbenoit.net/pdfs/Political\%20Analysis-2013-Lowe-298-313.pdf)." *Political Analysis* 21(3): 298-313.
 "data_corpus_irishbudgets"
 
 
@@ -74,14 +74,14 @@
 #'   \item{FirstName}{President's first and middle names.}
 #'   \item{President}{President's last name.}
 #'   \item{Date}{Date of the delivery of the speech or document.}
-#'   \item{delivery}{Either \code{written} or \code{spoken}, depending on the
+#'   \item{delivery}{Either `written` or `spoken`, depending on the
 #'   format. See Source.}
-#'   \item{type}{Either \code{SOTU} for an official State of the Union Address,
-#'   or \code{other}, for a different form of speech or message. See Source.}
+#'   \item{type}{Either `SOTU` for an official State of the Union Address,
+#'   or `other`, for a different form of speech or message. See Source.}
 #'   \item{party}{President's party.}
 #'   }
 #' @source The American Presidency Project,
-#'   \url{http://www.presidency.ucsb.edu/sou.php}.
+#'   <http://www.presidency.ucsb.edu/sou.php>.
 "data_corpus_sotu"
 
 
@@ -91,8 +91,8 @@
 #' @format 
 #'   The corpus includes the following document variables: \describe{
 #'   \item{Country}{Country name (UK).}
-#'   \item{Type}{Character indicating the type of election: national (\code{natl}) or regional (\code{regl}.}
-#'   \item{Language}{Language (\code{en}).}
+#'   \item{Type}{Character indicating the type of election: national (`natl`) or regional (`regl`.}
+#'   \item{Language}{Language (`en`).}
 #'   \item{Party}{A character abbreviation of the political party.}
 #'   }
 "data_corpus_ukmanifestos"
@@ -102,7 +102,7 @@
 #' 
 #' A corpus of 196 speeches from the 2017 UN General Debate. The raw corpus with
 #' all speeches since 1970 is available at:
-#' \url{https://doi.org/10.7910/DVN/0TJX8Y}. The economic data for 2017 (GDP and
+#' <https://doi.org/10.7910/DVN/0TJX8Y>. The economic data for 2017 (GDP and
 #' GDP per capita) are downloaded from the World Bank website.
 #' @format 
 #'   The corpus includes the following document variables: \describe{
@@ -120,29 +120,33 @@
 #'   }
 #' @source Mikhaylov, M., Baturo, A., & Dasandi, N. (2017). United Nations
 #'   General Debate Corpus. Harvard Dataverse, V4. URL:
-#'   \url{https://doi.org/10.7910/DVN/0TJX8Y}.
+#'   <https://doi.org/10.7910/DVN/0TJX8Y>.
 #' @references Mikhaylov, M., Baturo, A., & Dasandi, N. (2017). United Nations
 #'   General Debate Corpus. Harvard Dataverse, V4. URL:
-#'   \url{https://doi.org/10.7910/DVN/0TJX8Y}.
+#'   <https://doi.org/10.7910/DVN/0TJX8Y>.
 #'   
 #'   Baturo, A., Dasandi, N., & Mikhaylov, S. (2017).
-#'   \href{10.1177/2053168017712821}{Understanding State Preferences With Text
-#'   As Data: Introducing the UN General Debate Corpus}. \emph{Research and
-#'   Politics} 4(2): 1--9.
+#'   [Understanding State Preferences With Text
+#'   As Data: Introducing the UN General Debate Corpus](10.1177/2053168017712821). *Research and
+#'   Politics* 4(2): 1--9.
 "data_corpus_ungd2017"
 
 #' Universal Declaration of Human Rights
-#' A corpus object containing the Universal Declaration of Human Rights in 280 languages. 
-#' Original corpus is available at
-#' \url{http://research.ics.aalto.fi/cog/data/udhr/}.
+#' 
+#' A corpus object containing the Universal Declaration of Human Rights in 280
+#' languages.  The files where downloaded from
+#' <http://research.ics.aalto.fi/cog/data/udhr/>.  These have been converted
+#' into plain text format by Vatanen, Väyrynen, and Virpioja (2010).  At the
+#' source, there are additional versions in pdf but these were unavailable in
+#' plain text format.
 #' @format The corpus includes the following document variables: \describe{
-#'  \item{langauge} specifies the language of the texts.
-#'  \item{id} short identifier of the language.
+#'  \item{Language}{specifies the language of the texts}
+#'  \item{LangID}{short identifier of the language}
 #' }
-#' @references Tommi Vatanen, Jaakko J. Väyrynen and Sami Virpioja (2010)
+#' @references Tommi Vatanen, Jaakko J. Väyrynen, and Sami Virpioja (2010)
 #'   Language identification of short text segments with n-gram models. In
-#'   Proceedings of the Seventh International Conference on Language Resources
-#'   and Evaluation (LREC'10), pages 3423-3430. European Language Resources
+#'   _Proceedings of the Seventh International Conference on Language Resources
+#'   and Evaluation_ (LREC'10), pp. 3423-3430. European Language Resources
 #'   Association (ELRA).
 "data_corpus_udhr"
 
