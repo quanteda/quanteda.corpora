@@ -1,5 +1,9 @@
 # quantedaData change log
 
+## v0.92
+
+* Added `data_corpus_udhr` object.
+
 ## v0.90
 
 * Corpus object formats updated to quanteda v2.

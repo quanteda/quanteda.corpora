@@ -132,7 +132,7 @@
 "data_corpus_ungd2017"
 
 #' Universal Declaration of Human Rights
-#' A corpus object containing Universal Declaration of Human Rights in 280 languages. 
+#' A corpus object containing the Universal Declaration of Human Rights in 280 languages. 
 #' Original corpus is available at
 #' \url{http://research.ics.aalto.fi/cog/data/udhr/}.
 #' @format The corpus includes the following document variables: \describe{
