@@ -6,26 +6,26 @@
 \title{Universal Declaration of Human Rights}
 \format{
 The corpus includes the following document variables: \describe{
-\item{Language}{specifies the language of the texts}
-\item{LangID}{short identifier of the language}
+\item{DocID}{identifier of the translated documents}
+\item{LangID}{ISO 639-3 code of the language}
+\item{Note}{Notes about the translation}
+\item{Stage}{Stage of converstion to Unicode in the project}
 }
+}
+\source{
+The UDHR in Unicode Project \url{https://unicode.org/udhr/}
 }
 \usage{
 data_corpus_udhr
 }
 \description{
-A corpus object containing the Universal Declaration of Human Rights in 280
+A corpus object containing the Universal Declaration of Human Rights in 403
 languages.  The files where downloaded from
-\url{http://research.ics.aalto.fi/cog/data/udhr/}.  These have been converted
-into plain text format by Vatanen, Väyrynen, and Virpioja (2010).  At the
-source, there are additional versions in pdf but these were unavailable in
-plain text format.
+\url{https://unicode.org/udhr/}.  These have been converted
+into plain text format by the UDHR in Unicode Project.
 }
-\references{
-Tommi Vatanen, Jaakko J. Väyrynen, and Sami Virpioja (2010)
-Language identification of short text segments with n-gram models. In
-\emph{Proceedings of the Seventh International Conference on Language Resources
-and Evaluation} (LREC'10), pp. 3423-3430. European Language Resources
-Association (ELRA).
+\details{
+This corpus only contains documents in stage 4
+(fully converted to Unicode, to be reviewed) and 5 (complete and reviewed).
 }
 \keyword{datasets}
