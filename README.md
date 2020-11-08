@@ -26,7 +26,7 @@ Movie reviews from Pang, Lee, and Vaithyanathan (2002) | _moved to_ **quanteda.t
 US State of the Union addresses from 1790 to present | data_corpus_sotu
 UK political party manifestos, 1945-2005 | data_corpus_ukmanifestos
 UN General Debate speeches, 2017 | data_corpus_ungd2017
-Universal Declaration of Human Rights in 403280 languages | data_corpus_udhr
+Universal Declaration of Human Rights in 460 languages | data_corpus_udhr
 
 Larger corpora are also available from online locations using `download()`:
 
