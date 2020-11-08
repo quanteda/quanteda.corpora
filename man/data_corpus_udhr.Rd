@@ -19,7 +19,7 @@ The UDHR in Unicode Project \url{https://unicode.org/udhr/}
 data_corpus_udhr
 }
 \description{
-A corpus object containing the Universal Declaration of Human Rights in 403
+A corpus object containing the Universal Declaration of Human Rights in 460
 languages.  The files where downloaded from
 \url{https://unicode.org/udhr/}.  These have been converted
 into plain text format by the UDHR in Unicode Project.
