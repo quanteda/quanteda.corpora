@@ -14,28 +14,31 @@ for (f in list.files("sources/udhr/", pattern = "udhr_.*\\.xml")) {
   txt <- c(txt, paste(txt_pre, collapse = "\n"))
   txt <- c(txt, sapply(getNodeSet(xml, "//article//*[self::title or self::para]"), xmlValue))
   temp <- data.frame(
-    doc_id = f,
-    langauge = unlist(getNodeSet(xml, "//udhr/@iso639-3"), use.names = FALSE),
-    note = unlist(getNodeSet(xml, "//udhr/@n"), use.names = FALSE),
+    Key = f,
+    Name = unlist(getNodeSet(xml, "//udhr/@n"), use.names = FALSE),
+    ISO = unlist(getNodeSet(xml, "//udhr/@iso639-3"), use.names = FALSE),
     text = paste(txt, collapse = "\n\n")
    )
   dat <- rbind(dat, temp)
 }
 
-dat$doc_id <- stri_trans_tolower(dat$doc_id)
-dat$doc_id <- stri_replace_first_fixed(dat$doc_id, "udhr_", "")
-dat$doc_id <- stri_replace_first_fixed(dat$doc_id, ".xml", "")
+dat$Key <- stri_trans_tolower(dat$Key)
+dat$Key <- stri_replace_first_fixed(dat$Key, "udhr_", "")
+dat$Key <- stri_replace_first_fixed(dat$Key, ".xml", "")
 Encoding(dat$text) <- "UTF-8"
+Encoding(dat$Name) <- "UTF-8"
 
-dat$id <- dat$doc_id
-colnames(dat)[1:3] <- c("Key", "ISO", "Name")
-data_corpus_udhr <- corpus(dat, docid_field = "Key")
+data_corpus_udhr <- corpus(dat)
+# would be better to have a different naming scheme
+docnames(data_corpus_udhr) <- dat$Key
 
-metacorpus(data_corpus_udhr, "source") <- "The UDHR in Unicode Project"
-metacorpus(data_corpus_udhr, "notes") <- "https://unicode.org/udhr/"
-
-# reorder docvars
-data_corpus_udhr <- 
-  quanteda.tidy::relocate(data_corpus_udhr, Key, Name, ISO)
+metacorpus(data_corpus_udhr) <- list(
+  title = "Universal Declaration of Human Rights in multiple languages",
+  description = "The Universal Declaration of Human Rights in 464 languages. The files where downloaded from https://unicode.org/udhr/. These have been converted into plain text format by the UDHR in Unicode Project.",
+  source = "The UDHR in Unicode Project.  https://unicode.org/udhr/.",
+  url = "https://unicode.org/udhr/translations.html",
+  author = "UDHR in Unicode Project", 
+  keywords = c("UDHR", "unicode") 
+)
 
 usethis::use_data(data_corpus_udhr, overwrite = TRUE)
