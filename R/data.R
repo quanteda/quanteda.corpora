@@ -147,9 +147,11 @@
 #'  consult the Ethnologue to determine the primary language name if you have
 #'  difficulty finding a translation by language name.}
 #'  \item{ISO}{ISO 639-3 code of the language}
-#'  \item{Stage}{Stage of conversion to Unicode in the project.  See
-#'  <https://unicode.org/udhr/translations.html> for details.}
+#'  \item{Direction}{Text runs from left-to-right (ltr) or right-to-left (rtl)}
 #' }
+#' @details 
+#' This corpus only includes texts in stage 4 or 5 of conversion to Unicode in the project.  See
+#'  <https://unicode.org/udhr/translations.html> for details.
 #' @source The UDHR in Unicode Project <https://unicode.org/udhr/>
 "data_corpus_udhr"
 

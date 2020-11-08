@@ -17,6 +17,7 @@ for (f in list.files("sources/udhr/", pattern = "udhr_.*\\.xml")) {
     Key = f,
     Name = unlist(getNodeSet(xml, "//udhr/@n"), use.names = FALSE),
     ISO = unlist(getNodeSet(xml, "//udhr/@iso639-3"), use.names = FALSE),
+    Direction = unlist(getNodeSet(xml, "//udhr/@dir"), use.names = FALSE),
     text = paste(txt, collapse = "\n\n")
    )
   dat <- rbind(dat, temp)

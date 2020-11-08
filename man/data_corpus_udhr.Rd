@@ -15,8 +15,7 @@ Ethnologue, may be followed by a qualifier in parenthesis. You may want to
 consult the Ethnologue to determine the primary language name if you have
 difficulty finding a translation by language name.}
 \item{ISO}{ISO 639-3 code of the language}
-\item{Stage}{Stage of conversion to Unicode in the project.  See
-\url{https://unicode.org/udhr/translations.html} for details.}
+\item{Direction}{Text runs from left-to-right (ltr) or right-to-left (rtl)}
 }
 }
 \source{
@@ -30,5 +29,9 @@ A corpus object containing the Universal Declaration of Human Rights in 464
 languages.  The files where downloaded from \url{https://unicode.org/udhr/}.
 These have been converted into plain text format by the UDHR in Unicode
 Project.
+}
+\details{
+This corpus only includes texts in stage 4 or 5 of conversion to Unicode in the project.  See
+\url{https://unicode.org/udhr/translations.html} for details.
 }
 \keyword{datasets}
