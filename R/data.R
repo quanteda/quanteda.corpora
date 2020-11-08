@@ -141,7 +141,7 @@
 #'  \item{DocID}{identifier of the translated documents}
 #'  \item{LangID}{ISO 639-3 code of the language}
 #'  \item{Note}{Notes about the translation}
-#'  \item{Stage}{Stage of converstion to Unicode in the project}
+#'  \item{Stage}{Stage of conversion to Unicode in the project}
 #' }
 #' @source The UDHR in Unicode Project <https://unicode.org/udhr/>
 #' @details This corpus only contains documents in stage 4 
