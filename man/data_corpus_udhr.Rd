@@ -31,7 +31,7 @@ These have been converted into plain text format by the UDHR in Unicode
 Project.
 }
 \details{
-This corpus only includes texts in stage 4 or 5 of conversion to Unicode in the project.  See
+This corpus only includes texts in the stage 4 or 5 of conversion to Unicode in the project.  See
 \url{https://unicode.org/udhr/translations.html} for details.
 }
 \keyword{datasets}

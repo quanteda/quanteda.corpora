@@ -150,7 +150,7 @@
 #'  \item{Direction}{Text runs from left-to-right (ltr) or right-to-left (rtl)}
 #' }
 #' @details 
-#' This corpus only includes texts in stage 4 or 5 of conversion to Unicode in the project.  See
+#' This corpus only includes texts in the stage 4 or 5 of conversion to Unicode in the project.  See
 #'  <https://unicode.org/udhr/translations.html> for details.
 #' @source The UDHR in Unicode Project <https://unicode.org/udhr/>
 "data_corpus_udhr"
