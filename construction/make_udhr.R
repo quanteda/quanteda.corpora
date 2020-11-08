@@ -1,33 +1,34 @@
-require(readtext)
 require(quanteda)
 require(XML)
 require(stringi)
 
 # https://unicode.org/udhr/index.html
-dat_text <- readtext("sources/udhr/udhr_*.txt", encoding = "utf-8")
-dat_text$doc_id <- stri_trans_tolower(dat_text$doc_id)
-dat_text$doc_id <- stri_replace_first_fixed(dat_text$doc_id, "udhr_", "")
-dat_text$doc_id <- stri_replace_first_fixed(dat_text$doc_id, ".txt", "")
-# remove header 
-dat_text$text <- stri_replace_first_regex(dat_text$text, "^.*?---\n\n", "", dotall = TRUE)
-# remove indent
-dat_text$text <- stri_replace_all_regex(dat_text$text, "^\\p{Z}+", "", multiline = TRUE)
-# more than three new lines
-dat_text$text <- stri_replace_all_regex(dat_text$text, "\n\n\n+", "\n\n", multiline = TRUE)
-Encoding(dat_text$text) <- "UTF-8"
+dat <- data.frame()
+for (f in list.files("sources/udhr/", pattern = "udhr_.*\\.xml")) {
+  txt <- txt_pre <- character()
+  xml <- htmlParse(paste0("sources/udhr/", f), encoding = "utf-8")
+  if (length(getNodeSet(xml, "//preamble//title")) != 1)
+    cat("Different format of preamble in", f, "\n")
+  txt <- sapply(getNodeSet(xml, "//preamble//title"), xmlValue)
+  txt_pre <- sapply(getNodeSet(xml, "//preamble//para"), xmlValue)
+  txt <- c(txt, paste(txt_pre, collapse = "\n"))
+  txt <- c(txt, sapply(getNodeSet(xml, "//article//*[self::title or self::para]"), xmlValue))
+  temp <- data.frame(
+    doc_id = f,
+    langauge = unlist(getNodeSet(xml, "//udhr/@iso639-3"), use.names = FALSE),
+    note = unlist(getNodeSet(xml, "//udhr/@n"), use.names = FALSE),
+    text = paste(txt, collapse = "\n\n")
+   )
+  dat <- rbind(dat, temp)
+}
 
-xml <- xmlParse("sources/udhr/index.xml")
-dat_meta <- data.frame(doc_id = unlist(getNodeSet(xml, "//udhr/@f"), use.names = FALSE),
-                       langauge = unlist(getNodeSet(xml, "//udhr/@iso639-3"), use.names = FALSE),
-                       note = unlist(getNodeSet(xml, "//udhr/@n"), use.names = FALSE),
-                       stage = as.integer(unlist(getNodeSet(xml, "//udhr/@stage"), use.names = FALSE)))
-Encoding(dat_meta$note) <- "UTF-8"
-dat_meta$doc_id <- stri_trans_tolower(dat_meta$doc_id)
+dat$doc_id <- stri_trans_tolower(dat$doc_id)
+dat$doc_id <- stri_replace_first_fixed(dat$doc_id, "udhr_", "")
+dat$doc_id <- stri_replace_first_fixed(dat$doc_id, ".xml", "")
+Encoding(dat$text) <- "UTF-8"
 
-dat <- merge(dat_meta, dat_text, by = "doc_id", sort = FALSE)
-dat <- subset(dat, stage >= 4)
 dat$id <- dat$doc_id
-colnames(dat)[1:4] <- c("DocID", "LangID", "Note", "Stage")
+colnames(dat)[1:3] <- c("DocID", "LangID", "Note")
 data_corpus_udhr <- corpus(dat, docid_field = "id")
 
 metacorpus(data_corpus_udhr, "source") <- "The UDHR in Unicode Project"
