@@ -9,7 +9,6 @@ The corpus includes the following document variables: \describe{
 \item{DocID}{identifier of the translated documents}
 \item{LangID}{ISO 639-3 code of the language}
 \item{Note}{Notes about the translation}
-\item{Stage}{Stage of converstion to Unicode in the project}
 }
 }
 \source{
@@ -19,13 +18,9 @@ The UDHR in Unicode Project \url{https://unicode.org/udhr/}
 data_corpus_udhr
 }
 \description{
-A corpus object containing the Universal Declaration of Human Rights in 460
+A corpus object containing the Universal Declaration of Human Rights in 464
 languages.  The files where downloaded from
 \url{https://unicode.org/udhr/}.  These have been converted
 into plain text format by the UDHR in Unicode Project.
-}
-\details{
-This corpus only contains documents in stage 4
-(fully converted to Unicode, to be reviewed) and 5 (complete and reviewed).
 }
 \keyword{datasets}
