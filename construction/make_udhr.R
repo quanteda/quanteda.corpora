@@ -28,10 +28,14 @@ dat$doc_id <- stri_replace_first_fixed(dat$doc_id, ".xml", "")
 Encoding(dat$text) <- "UTF-8"
 
 dat$id <- dat$doc_id
-colnames(dat)[1:3] <- c("DocID", "LangID", "Note")
-data_corpus_udhr <- corpus(dat, docid_field = "id")
+colnames(dat)[1:3] <- c("Key", "ISO", "Name")
+data_corpus_udhr <- corpus(dat, docid_field = "Key")
 
 metacorpus(data_corpus_udhr, "source") <- "The UDHR in Unicode Project"
 metacorpus(data_corpus_udhr, "notes") <- "https://unicode.org/udhr/"
+
+# reorder docvars
+data_corpus_udhr <- 
+  quanteda.tidy::relocate(data_corpus_udhr, Key, Name, ISO)
 
 usethis::use_data(data_corpus_udhr, overwrite = TRUE)
