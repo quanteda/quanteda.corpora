@@ -8,7 +8,13 @@ dat_text <- readtext("sources/udhr/udhr_*.txt", encoding = "utf-8")
 dat_text$doc_id <- stri_trans_tolower(dat_text$doc_id)
 dat_text$doc_id <- stri_replace_first_fixed(dat_text$doc_id, "udhr_", "")
 dat_text$doc_id <- stri_replace_first_fixed(dat_text$doc_id, ".txt", "")
+# remove header 
 dat_text$text <- stri_replace_first_regex(dat_text$text, "^.*?---\n\n", "", dotall = TRUE)
+# remove indent
+dat_text$text <- stri_replace_all_regex(dat_text$text, "^\\p{Z}+", "", multiline = TRUE)
+# more than three new lines
+dat_text$text <- stri_replace_all_regex(dat_text$text, "\n\n\n+", "\n\n", multiline = TRUE)
+Encoding(dat_text$text) <- "UTF-8"
 
 xml <- xmlParse("sources/udhr/index.xml")
 dat_meta <- data.frame(doc_id = unlist(getNodeSet(xml, "//udhr/@f"), use.names = FALSE),
