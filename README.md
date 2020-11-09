@@ -23,10 +23,10 @@ Amicus curiae briefs from Bakke (1978) and Bollinger (2008) | data_corpus_amicus
 Annual budget speeches from the Irish Dáil, 2008-2012 | data_corpus_irishbudgets
 UK news articles from 2014 that mention immigration | data_corpus_immigrationnews
 Movie reviews from Pang, Lee, and Vaithyanathan (2002) | _moved to_ **quanteda.textmodels** 
-U.S. State of the Union addresses from 1790 to present | data_corpus_sotu
+US State of the Union addresses from 1790 to present | data_corpus_sotu
 UK political party manifestos, 1945-2005 | data_corpus_ukmanifestos
 UN General Debate speeches, 2017 | data_corpus_ungd2017
-Universal Declaration of Human Rights in 280 languages | data_corpus_udhr
+Universal Declaration of Human Rights in 464 languages | data_corpus_udhr
 
 Larger corpora are also available from online locations using `download()`:
 

@@ -133,20 +133,25 @@
 
 #' Universal Declaration of Human Rights
 #' 
-#' A corpus object containing the Universal Declaration of Human Rights in 280
-#' languages.  The files where downloaded from
-#' <http://research.ics.aalto.fi/cog/data/udhr/>.  These have been converted
-#' into plain text format by Vatanen, Väyrynen, and Virpioja (2010).  At the
-#' source, there are additional versions in pdf but these were unavailable in
-#' plain text format.
+#' A corpus object containing the Universal Declaration of Human Rights in 464
+#' languages.  The files where downloaded from <https://unicode.org/udhr/>.
+#' These have been converted into plain text format by the UDHR in Unicode
+#' Project.
 #' @format The corpus includes the following document variables: \describe{
-#'  \item{Language}{specifies the language of the texts}
-#'  \item{LangID}{short identifier of the language}
+#'  \item{Key}{“Key” is the internal key used in the "UDHR in Unicode" database
+#'  to identify the translations. It has no meaning or relation to any system of
+#'  tags.}
+#'  \item{Name}{The [Ethnologue](http://ethnologue.com/) entry for the
+#'  language. This is the primary language name given by the
+#'  Ethnologue, may be followed by a qualifier in parenthesis. You may want to
+#'  consult the Ethnologue to determine the primary language name if you have
+#'  difficulty finding a translation by language name.}
+#'  \item{ISO}{ISO 639-3 code of the language}
+#'  \item{Direction}{Text runs from left-to-right (ltr) or right-to-left (rtl)}
 #' }
-#' @references Tommi Vatanen, Jaakko J. Väyrynen, and Sami Virpioja (2010)
-#'   Language identification of short text segments with n-gram models. In
-#'   _Proceedings of the Seventh International Conference on Language Resources
-#'   and Evaluation_ (LREC'10), pp. 3423-3430. European Language Resources
-#'   Association (ELRA).
+#' @details 
+#' This corpus only includes texts in the stage 4 or 5 of conversion to Unicode in the project.  See
+#'  <https://unicode.org/udhr/translations.html> for details.
+#' @source The UDHR in Unicode Project <https://unicode.org/udhr/>
 "data_corpus_udhr"
 
