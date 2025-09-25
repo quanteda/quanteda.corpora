@@ -27,6 +27,6 @@ Herzog, A. & Kenneth, K. (2015).
 "\href{http://www.kenbenoit.net/pdfs/Herzog_Benoit_JOP_2015.pdf}{The Most Unkindest Cuts: Speaker Selection and Expressed Government Dissent During Economic Crisis}." \emph{The Journal of Politics} 77(4): 1157--1175.
 
 Lowe, W. & Benoit, K. (2013).
-"\href{http://www.kenbenoit.net/pdfs/Political\%20Analysis-2013-Lowe-298-313.pdf}{Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark}." \emph{Political Analysis} 21(3): 298-313.
+"\href{http://www.kenbenoit.net/pdfs/Political\\%20Analysis-2013-Lowe-298-313.pdf}{Validating Estimates of Latent Traits From Textual Data Using Human Judgment as a Benchmark}." \emph{Political Analysis} 21(3): 298-313.
 }
 \keyword{datasets}

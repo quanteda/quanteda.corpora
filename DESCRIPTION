@@ -1,7 +1,7 @@
 Package: quanteda.corpora
 Type: Package
 Title: A collection of corpora for quanteda
-Version: 0.9.2
+Version: 0.9.3
 Date: 2020-07-11
 Authors@R: c(person("Kenneth", "Benoit", email = "kbenoit@lse.ac.uk", role = c("aut", "cre")), 
              person("Kohei", "Watanabe", email = "watanabe.kohei@gmail.com", role = "ctb"),
@@ -20,7 +20,7 @@ Suggests:
 URL: http://github.com/quanteda/quanteda.corpora
 BugReports: https://github.com/quanteda/quanteda.corpora/issues
 LazyData: TRUE
-RoxygenNote: 7.1.1
+RoxygenNote: 7.3.3
 Collate:
     "download.R"
     "data.R"
